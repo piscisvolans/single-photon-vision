@@ -1,0 +1,3 @@
+﻿[DAQmx]	MajorVersion	MinorVersion	
+	9	8	
+
