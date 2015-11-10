@@ -1,0 +1,249 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Mapping Report File for Design 'MichaelsFPGAVision'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc3s400-ft256-4 -cm area -ir off -pr off
+-c 100 -o MichaelsFPGAVision_map.ncd MichaelsFPGAVision.ngd
+MichaelsFPGAVision.pcf 
+Target Device  : xc3s400
+Target Package : ft256
+Target Speed   : -4
+Mapper Version : spartan3 -- $Revision: 1.55 $
+Mapped Date    : Tue Nov 10 15:22:08 2015
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    4
+Logic Utilization:
+  Number of Slice Flip Flops:            52 out of   7,168    1%
+  Number of 4 input LUTs:                47 out of   7,168    1%
+Logic Distribution:
+  Number of occupied Slices:             57 out of   3,584    1%
+    Number of Slices containing only related logic:      57 out of      57 100%
+    Number of Slices containing unrelated logic:          0 out of      57   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:          79 out of   7,168    1%
+    Number used as logic:                47
+    Number used as a route-thru:         32
+
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+  Number of bonded IOBs:                 22 out of     173   12%
+  Number of BUFGMUXs:                     3 out of       8   37%
+
+  Number of RPM macros:            6
+Average Fanout of Non-Clock Nets:                2.22
+
+Peak Memory Usage:  239 MB
+Total REAL time to MAP completion:  3 secs 
+Total CPU time to MAP completion:   1 secs 
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Timing Report
+Section 11 - Configuration String Information
+Section 12 - Control Set Information
+Section 13 - Utilization by Hierarchy
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current
+version of Xilinx tools will continue to function, but you no longer qualify for
+Xilinx software updates or new releases.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net LOAD3 is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net LOAD1 is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net LOAD2 is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net LOAD4 is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+
+Section 3 - Informational
+-------------------------
+INFO:Security:54 - 'xc3s400' is a WebPack part.
+INFO:LIT:243 - Logical network XLXI_5/CEO has no load.
+INFO:LIT:395 - The above info message is repeated 5 more times for the following
+   (max. 5 shown):
+   XLXI_5/TC,
+   XLXI_139/CEO,
+   XLXI_138/CEO,
+   XLXI_128/CEO,
+   XLXI_12/CEO
+   To see the details of these info messages, please use the -detail switch.
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+  10 block(s) removed
+  12 block(s) optimized away
+  10 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+The signal "XLXI_5/CEO" is sourceless and has been removed.
+The signal "XLXI_5/TC" is sourceless and has been removed.
+The signal "XLXI_5/TC_1" is sourceless and has been removed.
+ Sourceless block "XLXI_5/XLXI_1" (AND) removed.
+ Sourceless block "XLXI_5/XLXI_2" (AND) removed.
+The signal "XLXI_5/XLXN_40" is sourceless and has been removed.
+The signal "XLXI_139/CEO" is sourceless and has been removed.
+The signal "XLXI_138/CEO" is sourceless and has been removed.
+The signal "XLXI_128/CEO" is sourceless and has been removed.
+The signal "XLXI_128/TC" is sourceless and has been removed.
+ Sourceless block "XLXI_128/I_36_52" (AND) removed.
+The signal "XLXI_12/CEO" is sourceless and has been removed.
+The signal "XLXI_12/TC" is sourceless and has been removed.
+ Sourceless block "XLXI_12/I_36_52" (AND) removed.
+Unused block "XLXI_12/I_36_37" (AND) removed.
+Unused block "XLXI_128/I_36_37" (AND) removed.
+Unused block "XLXI_138/XLXI_2" (AND) removed.
+Unused block "XLXI_139/XLXI_2" (AND) removed.
+Unused block "XLXI_5/XLXI_3" (BUF) removed.
+Unused block "XLXI_5/I_36_1140" (MUX) removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+VCC 		XLXI_12/I_36_47
+VCC 		XLXI_128/I_36_47
+GND 		XLXI_138/I_36_886
+VCC 		XLXI_138/I_36_923
+INV 		XLXI_138/XLXI_3
+GND 		XLXI_139/I_36_886
+VCC 		XLXI_139/I_36_923
+INV 		XLXI_139/XLXI_3
+VCC 		XLXI_141
+GND 		XLXI_143
+GND 		XLXI_5/I_36_1269
+VCC 		XLXI_5/I_36_923
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
+|                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| CLKIN                              | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| D0                                 | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| D1                                 | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| D2                                 | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| D3                                 | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| HEXSEL0                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| HEXSEL1                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| HEXSEL2                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| HEXSEL3                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| HexOut<0>                          | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| HexOut<1>                          | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| HexOut<2>                          | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| HexOut<3>                          | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| HexOut<4>                          | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| HexOut<5>                          | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| HexOut<6>                          | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| HexOut<7>                          | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| LABVIEW                            | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| LASER                              | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| LOAD                               | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| LabVIEWOUT                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| PULSES                             | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+XLXI_12/XLXI_12_I_Q0_0                  
+XLXI_12/XLXI_12_I_Q1_1                  
+XLXI_128/XLXI_128_I_Q0_0                
+XLXI_128/XLXI_128_I_Q1_1                
+XLXI_138_10                             
+XLXI_139_11                             
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Timing Report
+--------------------------
+This design was not run using timing mode.
+
+Section 11 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 12 - Control Set Information
+------------------------------------
+No control set information for this architecture.
+
+Section 13 - Utilization by Hierarchy
+-------------------------------------
+Use the "-detail" map option to print out the Utilization by Hierarchy section.

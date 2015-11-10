@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2015-02-27T13:25:01</DateModified>
+  <DateModified>2015-11-10T15:21:00</DateModified>
   <ModuleName>MichaelsFPGAVision</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/lab/Dropbox/Vision software/Old versions and backups/FPGAcount/iseconfig/MichaelsFPGAVision.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/lab/Dropbox/Vision software/Old versions and backups/FPGAcount\</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/iseconfig/MichaelsFPGAVision.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount\</ImplementationReportsDirectory>
   <DateInitialized>2014-03-04T11:31:52</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
