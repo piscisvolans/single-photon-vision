@@ -10,7 +10,7 @@ Target Device  : xc3s400
 Target Package : ft256
 Target Speed   : -4
 Mapper Version : spartan3 -- $Revision: 1.55 $
-Mapped Date    : Tue Nov 10 15:22:08 2015
+Mapped Date    : Mon Feb 01 16:37:15 2016
 
 Design Summary
 --------------
@@ -38,7 +38,7 @@ Logic Distribution:
 Average Fanout of Non-Clock Nets:                2.22
 
 Peak Memory Usage:  239 MB
-Total REAL time to MAP completion:  3 secs 
+Total REAL time to MAP completion:  1 secs 
 Total CPU time to MAP completion:   1 secs 
 
 NOTES:
@@ -103,7 +103,7 @@ INFO:LIT:243 - Logical network XLXI_5/CEO has no load.
 INFO:LIT:395 - The above info message is repeated 5 more times for the following
    (max. 5 shown):
    XLXI_5/TC,
-   XLXI_139/CEO,
+   XLXI_149/CEO,
    XLXI_138/CEO,
    XLXI_128/CEO,
    XLXI_12/CEO
@@ -138,7 +138,7 @@ The signal "XLXI_5/TC_1" is sourceless and has been removed.
  Sourceless block "XLXI_5/XLXI_1" (AND) removed.
  Sourceless block "XLXI_5/XLXI_2" (AND) removed.
 The signal "XLXI_5/XLXN_40" is sourceless and has been removed.
-The signal "XLXI_139/CEO" is sourceless and has been removed.
+The signal "XLXI_149/CEO" is sourceless and has been removed.
 The signal "XLXI_138/CEO" is sourceless and has been removed.
 The signal "XLXI_128/CEO" is sourceless and has been removed.
 The signal "XLXI_128/TC" is sourceless and has been removed.
@@ -149,7 +149,7 @@ The signal "XLXI_12/TC" is sourceless and has been removed.
 Unused block "XLXI_12/I_36_37" (AND) removed.
 Unused block "XLXI_128/I_36_37" (AND) removed.
 Unused block "XLXI_138/XLXI_2" (AND) removed.
-Unused block "XLXI_139/XLXI_2" (AND) removed.
+Unused block "XLXI_149/XLXI_2" (AND) removed.
 Unused block "XLXI_5/XLXI_3" (BUF) removed.
 Unused block "XLXI_5/I_36_1140" (MUX) removed.
 
@@ -160,11 +160,11 @@ VCC 		XLXI_128/I_36_47
 GND 		XLXI_138/I_36_886
 VCC 		XLXI_138/I_36_923
 INV 		XLXI_138/XLXI_3
-GND 		XLXI_139/I_36_886
-VCC 		XLXI_139/I_36_923
-INV 		XLXI_139/XLXI_3
-VCC 		XLXI_141
-GND 		XLXI_143
+GND 		XLXI_149/I_36_886
+VCC 		XLXI_149/I_36_923
+INV 		XLXI_149/XLXI_3
+VCC 		XLXI_150
+GND 		XLXI_151
 GND 		XLXI_5/I_36_1269
 VCC 		XLXI_5/I_36_923
 
@@ -209,7 +209,7 @@ XLXI_12/XLXI_12_I_Q1_1
 XLXI_128/XLXI_128_I_Q0_0                
 XLXI_128/XLXI_128_I_Q1_1                
 XLXI_138_10                             
-XLXI_139_11                             
+XLXI_149_11                             
 
 Section 8 - Guide Report
 ------------------------

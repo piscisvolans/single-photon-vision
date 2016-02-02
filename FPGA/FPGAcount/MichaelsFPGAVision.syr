@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.15 secs
+Total CPU time to Xst completion: 0.14 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.16 secs
+Total CPU time to Xst completion: 0.14 secs
  
 --> Reading design: MichaelsFPGAVision.prj
 
@@ -105,74 +105,68 @@ Slice Utilization Ratio Delta      : 5
 *                          HDL Compilation                              *
 =========================================================================
 Compiling vhdl file "C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/BUS16TO1.vhd" in Library work.
-Entity <BUS16TO1> compiled.
-Entity <BUS16TO1> (Architecture <Behavioral>) compiled.
+Architecture behavioral of Entity bus16to1 is up to date.
 Compiling vhdl file "C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/HexDriver.vhd" in Library work.
-Entity <hex_display> compiled.
-Entity <hex_display> (Architecture <behavioral>) compiled.
+Architecture behavioral of Entity hex_display is up to date.
 Compiling vhdl file "C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/mux4to1.vhd" in Library work.
-Entity <mux4to1> compiled.
-Entity <mux4to1> (Architecture <behavioral>) compiled.
+Architecture behavioral of Entity mux4to1 is up to date.
 Compiling vhdl file "C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/BUS2TO1.vhd" in Library work.
-Entity <BUS2TO1> compiled.
-Entity <BUS2TO1> (Architecture <Behavioral>) compiled.
+Architecture behavioral of Entity bus2to1 is up to date.
 Compiling vhdl file "C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/dmux4to1.vhd" in Library work.
-Entity <demultiplexer_case> compiled.
-Entity <demultiplexer_case> (Architecture <demultiplexer_case_arc>) compiled.
+Architecture demultiplexer_case_arc of Entity demultiplexer_case is up to date.
 Compiling vhdl file "C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/BUS16TO4.vhd" in Library work.
-Entity <BUSTO4> compiled.
-Entity <BUSTO4> (Architecture <Behavioral>) compiled.
+Architecture behavioral of Entity busto4 is up to date.
 Compiling vhdl file "C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/MichaelsFPGAVision.vhf" in Library work.
-Entity <CC8CE_MXILINX_MichaelsFPGAVision> compiled.
-Entity <CC8CE_MXILINX_MichaelsFPGAVision> (Architecture <BEHAVIORAL>) compiled.
-Entity <FTCE_MXILINX_MichaelsFPGAVision> compiled.
-Entity <FTCE_MXILINX_MichaelsFPGAVision> (Architecture <BEHAVIORAL>) compiled.
-Entity <CB2CE_MXILINX_MichaelsFPGAVision> compiled.
-Entity <CB2CE_MXILINX_MichaelsFPGAVision> (Architecture <BEHAVIORAL>) compiled.
-Entity <CC16CE_MXILINX_MichaelsFPGAVision> compiled.
-Entity <CC16CE_MXILINX_MichaelsFPGAVision> (Architecture <BEHAVIORAL>) compiled.
-Entity <COMP16_MXILINX_MichaelsFPGAVision> compiled.
-Entity <COMP16_MXILINX_MichaelsFPGAVision> (Architecture <BEHAVIORAL>) compiled.
-Entity <FD4CE_MXILINX_MichaelsFPGAVision> compiled.
-Entity <FD4CE_MXILINX_MichaelsFPGAVision> (Architecture <BEHAVIORAL>) compiled.
-Entity <MichaelsFPGAVision> compiled.
-Entity <MichaelsFPGAVision> (Architecture <BEHAVIORAL>) compiled.
+Entity <cc8ce_mxilinx_michaelsfpgavision> compiled.
+Entity <cc8ce_mxilinx_michaelsfpgavision> (Architecture <behavioral>) compiled.
+Entity <ftce_mxilinx_michaelsfpgavision> compiled.
+Entity <ftce_mxilinx_michaelsfpgavision> (Architecture <behavioral>) compiled.
+Entity <cb2ce_mxilinx_michaelsfpgavision> compiled.
+Entity <cb2ce_mxilinx_michaelsfpgavision> (Architecture <behavioral>) compiled.
+Entity <cc16ce_mxilinx_michaelsfpgavision> compiled.
+Entity <cc16ce_mxilinx_michaelsfpgavision> (Architecture <behavioral>) compiled.
+Entity <comp16_mxilinx_michaelsfpgavision> compiled.
+Entity <comp16_mxilinx_michaelsfpgavision> (Architecture <behavioral>) compiled.
+Entity <fd4ce_mxilinx_michaelsfpgavision> compiled.
+Entity <fd4ce_mxilinx_michaelsfpgavision> (Architecture <behavioral>) compiled.
+Entity <michaelsfpgavision> compiled.
+Entity <michaelsfpgavision> (Architecture <behavioral>) compiled.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
 =========================================================================
-Analyzing hierarchy for entity <MichaelsFPGAVision> in library <work> (architecture <BEHAVIORAL>).
+Analyzing hierarchy for entity <MichaelsFPGAVision> in library <work> (architecture <behavioral>).
 
-Analyzing hierarchy for entity <CC16CE_MXILINX_MichaelsFPGAVision> in library <work> (architecture <BEHAVIORAL>).
+Analyzing hierarchy for entity <CC16CE_MXILINX_MichaelsFPGAVision> in library <work> (architecture <behavioral>).
 
-Analyzing hierarchy for entity <CB2CE_MXILINX_MichaelsFPGAVision> in library <work> (architecture <BEHAVIORAL>).
+Analyzing hierarchy for entity <CB2CE_MXILINX_MichaelsFPGAVision> in library <work> (architecture <behavioral>).
 
-Analyzing hierarchy for entity <FD4CE_MXILINX_MichaelsFPGAVision> in library <work> (architecture <BEHAVIORAL>).
+Analyzing hierarchy for entity <FD4CE_MXILINX_MichaelsFPGAVision> in library <work> (architecture <behavioral>).
 
-Analyzing hierarchy for entity <BUS16TO1> in library <work> (architecture <Behavioral>).
+Analyzing hierarchy for entity <BUS16TO1> in library <work> (architecture <behavioral>).
 
-Analyzing hierarchy for entity <COMP16_MXILINX_MichaelsFPGAVision> in library <work> (architecture <BEHAVIORAL>).
+Analyzing hierarchy for entity <COMP16_MXILINX_MichaelsFPGAVision> in library <work> (architecture <behavioral>).
 
 Analyzing hierarchy for entity <hex_display> in library <work> (architecture <behavioral>).
 
 Analyzing hierarchy for entity <mux4to1> in library <work> (architecture <behavioral>).
 
-Analyzing hierarchy for entity <BUS2TO1> in library <work> (architecture <Behavioral>).
+Analyzing hierarchy for entity <BUS2TO1> in library <work> (architecture <behavioral>).
 
 Analyzing hierarchy for entity <demultiplexer_case> in library <work> (architecture <demultiplexer_case_arc>).
 
-Analyzing hierarchy for entity <BUSTO4> in library <work> (architecture <Behavioral>).
+Analyzing hierarchy for entity <BUSTO4> in library <work> (architecture <behavioral>).
 
-Analyzing hierarchy for entity <CC8CE_MXILINX_MichaelsFPGAVision> in library <work> (architecture <BEHAVIORAL>).
+Analyzing hierarchy for entity <CC8CE_MXILINX_MichaelsFPGAVision> in library <work> (architecture <behavioral>).
 
-Analyzing hierarchy for entity <FTCE_MXILINX_MichaelsFPGAVision> in library <work> (architecture <BEHAVIORAL>) with generics.
+Analyzing hierarchy for entity <FTCE_MXILINX_MichaelsFPGAVision> in library <work> (architecture <behavioral>) with generics.
 	INIT = '0'
 
 
 =========================================================================
 *                            HDL Analysis                               *
 =========================================================================
-Analyzing Entity <MichaelsFPGAVision> in library <work> (Architecture <BEHAVIORAL>).
+Analyzing Entity <MichaelsFPGAVision> in library <work> (Architecture <behavioral>).
 WARNING:Xst:753 - "C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/MichaelsFPGAVision.vhf" line 1358: Unconnected output port 'CEO' of component 'CC16CE_MXILINX_MichaelsFPGAVision'.
 WARNING:Xst:753 - "C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/MichaelsFPGAVision.vhf" line 1358: Unconnected output port 'TC' of component 'CC16CE_MXILINX_MichaelsFPGAVision'.
     Set user-defined property "HU_SET =  XLXI_5_7" for instance <XLXI_5> in unit <MichaelsFPGAVision>.
@@ -190,12 +184,12 @@ WARNING:Xst:753 - "C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAc
 WARNING:Xst:753 - "C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/MichaelsFPGAVision.vhf" line 1560: Unconnected output port 'CEO' of component 'CC8CE_MXILINX_MichaelsFPGAVision'.
 WARNING:Xst:753 - "C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/MichaelsFPGAVision.vhf" line 1560: Unconnected output port 'Q' of component 'CC8CE_MXILINX_MichaelsFPGAVision'.
     Set user-defined property "HU_SET =  XLXI_138_10" for instance <XLXI_138> in unit <MichaelsFPGAVision>.
-WARNING:Xst:753 - "C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/MichaelsFPGAVision.vhf" line 1568: Unconnected output port 'CEO' of component 'CC8CE_MXILINX_MichaelsFPGAVision'.
-WARNING:Xst:753 - "C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/MichaelsFPGAVision.vhf" line 1568: Unconnected output port 'Q' of component 'CC8CE_MXILINX_MichaelsFPGAVision'.
-    Set user-defined property "HU_SET =  XLXI_139_11" for instance <XLXI_139> in unit <MichaelsFPGAVision>.
+WARNING:Xst:753 - "C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/MichaelsFPGAVision.vhf" line 1574: Unconnected output port 'CEO' of component 'CC8CE_MXILINX_MichaelsFPGAVision'.
+WARNING:Xst:753 - "C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/MichaelsFPGAVision.vhf" line 1574: Unconnected output port 'Q' of component 'CC8CE_MXILINX_MichaelsFPGAVision'.
+    Set user-defined property "HU_SET =  XLXI_149_11" for instance <XLXI_149> in unit <MichaelsFPGAVision>.
 Entity <MichaelsFPGAVision> analyzed. Unit <MichaelsFPGAVision> generated.
 
-Analyzing Entity <CC16CE_MXILINX_MichaelsFPGAVision> in library <work> (Architecture <BEHAVIORAL>).
+Analyzing Entity <CC16CE_MXILINX_MichaelsFPGAVision> in library <work> (Architecture <behavioral>).
     Set user-defined property "INIT =  0" for instance <I_36_35> in unit <CC16CE_MXILINX_MichaelsFPGAVision>.
     Set user-defined property "INIT =  0" for instance <I_36_36> in unit <CC16CE_MXILINX_MichaelsFPGAVision>.
     Set user-defined property "INIT =  0" for instance <I_36_224> in unit <CC16CE_MXILINX_MichaelsFPGAVision>.
@@ -214,28 +208,28 @@ Analyzing Entity <CC16CE_MXILINX_MichaelsFPGAVision> in library <work> (Architec
     Set user-defined property "INIT =  0" for instance <I_36_1118> in unit <CC16CE_MXILINX_MichaelsFPGAVision>.
 Entity <CC16CE_MXILINX_MichaelsFPGAVision> analyzed. Unit <CC16CE_MXILINX_MichaelsFPGAVision> generated.
 
-Analyzing Entity <CB2CE_MXILINX_MichaelsFPGAVision> in library <work> (Architecture <BEHAVIORAL>).
+Analyzing Entity <CB2CE_MXILINX_MichaelsFPGAVision> in library <work> (Architecture <behavioral>).
     Set user-defined property "HU_SET =  I_Q0_0" for instance <I_Q0> in unit <CB2CE_MXILINX_MichaelsFPGAVision>.
     Set user-defined property "HU_SET =  I_Q1_1" for instance <I_Q1> in unit <CB2CE_MXILINX_MichaelsFPGAVision>.
 Entity <CB2CE_MXILINX_MichaelsFPGAVision> analyzed. Unit <CB2CE_MXILINX_MichaelsFPGAVision> generated.
 
-Analyzing generic Entity <FTCE_MXILINX_MichaelsFPGAVision> in library <work> (Architecture <BEHAVIORAL>).
+Analyzing generic Entity <FTCE_MXILINX_MichaelsFPGAVision> in library <work> (Architecture <behavioral>).
 	INIT = '0'
     Set user-defined property "INIT =  0" for instance <I_36_35> in unit <FTCE_MXILINX_MichaelsFPGAVision>.
     Set user-defined property "RLOC =  X0Y0" for instance <I_36_35> in unit <FTCE_MXILINX_MichaelsFPGAVision>.
 Entity <FTCE_MXILINX_MichaelsFPGAVision> analyzed. Unit <FTCE_MXILINX_MichaelsFPGAVision> generated.
 
-Analyzing Entity <FD4CE_MXILINX_MichaelsFPGAVision> in library <work> (Architecture <BEHAVIORAL>).
+Analyzing Entity <FD4CE_MXILINX_MichaelsFPGAVision> in library <work> (Architecture <behavioral>).
     Set user-defined property "INIT =  0" for instance <I_Q0> in unit <FD4CE_MXILINX_MichaelsFPGAVision>.
     Set user-defined property "INIT =  0" for instance <I_Q1> in unit <FD4CE_MXILINX_MichaelsFPGAVision>.
     Set user-defined property "INIT =  0" for instance <I_Q2> in unit <FD4CE_MXILINX_MichaelsFPGAVision>.
     Set user-defined property "INIT =  0" for instance <I_Q3> in unit <FD4CE_MXILINX_MichaelsFPGAVision>.
 Entity <FD4CE_MXILINX_MichaelsFPGAVision> analyzed. Unit <FD4CE_MXILINX_MichaelsFPGAVision> generated.
 
-Analyzing Entity <BUS16TO1> in library <work> (Architecture <Behavioral>).
+Analyzing Entity <BUS16TO1> in library <work> (Architecture <behavioral>).
 Entity <BUS16TO1> analyzed. Unit <BUS16TO1> generated.
 
-Analyzing Entity <COMP16_MXILINX_MichaelsFPGAVision> in library <work> (Architecture <BEHAVIORAL>).
+Analyzing Entity <COMP16_MXILINX_MichaelsFPGAVision> in library <work> (Architecture <behavioral>).
 Entity <COMP16_MXILINX_MichaelsFPGAVision> analyzed. Unit <COMP16_MXILINX_MichaelsFPGAVision> generated.
 
 Analyzing Entity <hex_display> in library <work> (Architecture <behavioral>).
@@ -244,17 +238,17 @@ Entity <hex_display> analyzed. Unit <hex_display> generated.
 Analyzing Entity <mux4to1> in library <work> (Architecture <behavioral>).
 Entity <mux4to1> analyzed. Unit <mux4to1> generated.
 
-Analyzing Entity <BUS2TO1> in library <work> (Architecture <Behavioral>).
+Analyzing Entity <BUS2TO1> in library <work> (Architecture <behavioral>).
 Entity <BUS2TO1> analyzed. Unit <BUS2TO1> generated.
 
 Analyzing Entity <demultiplexer_case> in library <work> (Architecture <demultiplexer_case_arc>).
 INFO:Xst:1561 - "C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/dmux4to1.vhd" line 39: Mux is complete : default of case is discarded
 Entity <demultiplexer_case> analyzed. Unit <demultiplexer_case> generated.
 
-Analyzing Entity <BUSTO4> in library <work> (Architecture <Behavioral>).
+Analyzing Entity <BUSTO4> in library <work> (Architecture <behavioral>).
 Entity <BUSTO4> analyzed. Unit <BUSTO4> generated.
 
-Analyzing Entity <CC8CE_MXILINX_MichaelsFPGAVision> in library <work> (Architecture <BEHAVIORAL>).
+Analyzing Entity <CC8CE_MXILINX_MichaelsFPGAVision> in library <work> (Architecture <behavioral>).
     Set user-defined property "RLOC =  X0Y0" for instance <I_36_4> in unit <CC8CE_MXILINX_MichaelsFPGAVision>.
     Set user-defined property "RLOC =  X0Y0" for instance <I_36_26> in unit <CC8CE_MXILINX_MichaelsFPGAVision>.
     Set user-defined property "INIT =  0" for instance <I_36_35> in unit <CC8CE_MXILINX_MichaelsFPGAVision>.
@@ -517,7 +511,7 @@ LOAD3(XLXI_71:O)                   | NONE(*)(XLXI_17/I_Q0)         | 4     |
 LOAD2(XLXI_70:O)                   | NONE(*)(XLXI_16/I_Q0)         | 4     |
 LOAD1(XLXI_69:O)                   | NONE(*)(XLXI_15/I_Q0)         | 4     |
 CLKIN                              | BUFGP                         | 8     |
-XLXI_139/TC(XLXI_139/XLXI_1:O)     | NONE(*)(XLXI_138/I_36_35)     | 8     |
+XLXI_149/TC(XLXI_149/XLXI_1:O)     | NONE(*)(XLXI_138/I_36_35)     | 8     |
 XLXI_138/TC(XLXI_138/XLXI_1:O)     | NONE(*)(XLXI_128/I_Q1/I_36_35)| 2     |
 LOAD                               | BUFGP                         | 2     |
 -----------------------------------+-------------------------------+-------+
@@ -531,7 +525,7 @@ Asynchronous Control Signals Information:
 -----------------------------------+---------------------------+-------+
 Control Signal                     | Buffer(FF name)           | Load  |
 -----------------------------------+---------------------------+-------+
-XLXN_185(XLXI_143:G)               | NONE(XLXI_12/I_Q0/I_36_35)| 36    |
+XLXN_200(XLXI_151:G)               | NONE(XLXI_12/I_Q0/I_36_35)| 36    |
 XLXN_7(XLXI_8:O)                   | NONE(XLXI_5/I_36_1095)    | 16    |
 -----------------------------------+---------------------------+-------+
 
@@ -592,12 +586,12 @@ Timing constraint: Default period analysis for Clock 'CLKIN'
   Total number of paths / destination ports: 36 / 8
 -------------------------------------------------------------------------
 Delay:               4.402ns (Levels of Logic = 9)
-  Source:            XLXI_139/I_36_36 (FF)
-  Destination:       XLXI_139/I_36_289 (FF)
+  Source:            XLXI_149/I_36_36 (FF)
+  Destination:       XLXI_149/I_36_289 (FF)
   Source Clock:      CLKIN rising
   Destination Clock: CLKIN rising
 
-  Data Path: XLXI_139/I_36_36 to XLXI_139/I_36_289
+  Data Path: XLXI_149/I_36_36 to XLXI_149/I_36_289
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
@@ -617,15 +611,15 @@ Delay:               4.402ns (Levels of Logic = 9)
                                        (74.1% logic, 25.9% route)
 
 =========================================================================
-Timing constraint: Default period analysis for Clock 'XLXI_139/TC'
+Timing constraint: Default period analysis for Clock 'XLXI_149/TC'
   Clock period: 4.402ns (frequency: 227.169MHz)
   Total number of paths / destination ports: 36 / 8
 -------------------------------------------------------------------------
 Delay:               4.402ns (Levels of Logic = 9)
   Source:            XLXI_138/I_36_36 (FF)
   Destination:       XLXI_138/I_36_289 (FF)
-  Source Clock:      XLXI_139/TC rising
-  Destination Clock: XLXI_139/TC rising
+  Source Clock:      XLXI_149/TC rising
+  Destination Clock: XLXI_149/TC rising
 
   Data Path: XLXI_138/I_36_36 to XLXI_138/I_36_289
                                 Gate     Net
@@ -812,8 +806,8 @@ Offset:              11.559ns (Levels of Logic = 5)
      end scope: 'XLXI_128'
      LUT3:I0->O            1   0.551   0.000  XLXI_118/Mmux_O_3 (XLXI_118/Mmux_O_3)
      MUXF5:I1->O           7   0.360   1.405  XLXI_118/Mmux_O_2_f5 (XLXN_158<0>)
-     LUT4:I0->O            1   0.551   0.801  XLXI_108/segs<1>1 (HexOut_1_OBUF)
-     OBUF:I->O                 5.644          HexOut_1_OBUF (HexOut<1>)
+     LUT4:I0->O            1   0.551   0.801  XLXI_108/segs<4>1 (HexOut_4_OBUF)
+     OBUF:I->O                 5.644          HexOut_4_OBUF (HexOut<4>)
     ----------------------------------------
     Total                     11.559ns (7.826ns logic, 3.733ns route)
                                        (67.7% logic, 32.3% route)
@@ -982,11 +976,11 @@ Delay:               10.695ns (Levels of Logic = 4)
 
 
 Total REAL time to Xst completion: 7.00 secs
-Total CPU time to Xst completion: 7.81 secs
+Total CPU time to Xst completion: 7.08 secs
  
 --> 
 
-Total memory usage is 272100 kilobytes
+Total memory usage is 271380 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   14 (   0 filtered)

@@ -7,7 +7,7 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : MichaelsFPGAVision.vhf
--- /___/   /\     Timestamp : 11/10/2015 15:21:45
+-- /___/   /\     Timestamp : 02/01/2016 16:36:54
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
@@ -1189,12 +1189,12 @@ architecture BEHAVIORAL of MichaelsFPGAVision is
    signal XLXN_177               : std_logic;
    signal XLXN_178               : std_logic;
    signal XLXN_179               : std_logic_vector (1 downto 0);
-   signal XLXN_183               : std_logic;
    signal XLXN_184               : std_logic;
    signal XLXN_185               : std_logic;
-   signal XLXN_188               : std_logic;
-   signal XLXN_189               : std_logic;
    signal XLXN_190               : std_logic;
+   signal XLXN_196               : std_logic;
+   signal XLXN_198               : std_logic;
+   signal XLXN_200               : std_logic;
    signal LASER_DUMMY            : std_logic;
    signal XLXI_15_CLR_openSignal : std_logic;
    signal XLXI_16_CLR_openSignal : std_logic;
@@ -1352,7 +1352,7 @@ architecture BEHAVIORAL of MichaelsFPGAVision is
    attribute HU_SET of XLXI_81 : label is "XLXI_81_6";
    attribute HU_SET of XLXI_128 : label is "XLXI_128_9";
    attribute HU_SET of XLXI_138 : label is "XLXI_138_10";
-   attribute HU_SET of XLXI_139 : label is "XLXI_139_11";
+   attribute HU_SET of XLXI_149 : label is "XLXI_149_11";
 begin
    LASER <= LASER_DUMMY;
    XLXI_5 : CC16CE_MXILINX_MichaelsFPGAVision
@@ -1558,32 +1558,32 @@ begin
                 OUTP3(3 downto 0)=>XLXN_172(3 downto 0));
    
    XLXI_138 : CC8CE_MXILINX_MichaelsFPGAVision
-      port map (C=>XLXN_183,
+      port map (C=>XLXN_196,
                 CE=>XLXN_190,
                 CLR=>XLXN_185,
                 CEO=>open,
                 Q=>open,
                 TC=>XLXN_184);
    
-   XLXI_139 : CC8CE_MXILINX_MichaelsFPGAVision
-      port map (C=>CLKIN,
-                CE=>XLXN_189,
-                CLR=>XLXN_188,
-                CEO=>open,
-                Q=>open,
-                TC=>XLXN_183);
-   
    XLXI_140 : VCC
       port map (P=>XLXN_190);
    
-   XLXI_141 : VCC
-      port map (P=>XLXN_189);
-   
-   XLXI_142 : GND
-      port map (G=>XLXN_188);
-   
    XLXI_143 : GND
       port map (G=>XLXN_185);
+   
+   XLXI_149 : CC8CE_MXILINX_MichaelsFPGAVision
+      port map (C=>CLKIN,
+                CE=>XLXN_198,
+                CLR=>XLXN_200,
+                CEO=>open,
+                Q=>open,
+                TC=>XLXN_196);
+   
+   XLXI_150 : VCC
+      port map (P=>XLXN_198);
+   
+   XLXI_151 : GND
+      port map (G=>XLXN_200);
    
 end BEHAVIORAL;
 

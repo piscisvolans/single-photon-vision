@@ -1,7 +1,7 @@
 Release 14.7 - par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Tue Nov 10 15:22:20 2015
+Mon Feb 01 16:37:23 2016
 
 
 INFO: The IO information is provided in three file formats as part of the Place and Route (PAR) process.  These formats are:
@@ -46,7 +46,7 @@ Pinout by Pin Number:
 |B8        |           |DIFFS    |IO_L32N_0/GCLK7    |UNUSED   |           |0             |          |         |           |         |         |          |           |                |
 |B9        |           |         |GND                |         |           |              |          |         |           |         |         |          |           |                |
 |B10       |           |DIFFM    |IO_L31P_1          |UNUSED   |           |1             |          |         |           |         |         |          |           |                |
-|B11       |           |DIFFS    |IO_L29N_1          |UNUSED   |           |1             |          |         |           |         |         |          |           |                |
+|B11       |LabVIEWOUT |IOB      |IO_L29N_1          |OUTPUT   |LVCMOS25*  |1             |12        |SLOW     |NONE**     |         |         |LOCATED   |NO         |NONE            |
 |B12       |           |DIFFS    |IO_L27N_1          |UNUSED   |           |1             |          |         |           |         |         |          |           |                |
 |B13       |           |DIFFM    |IO_L10P_1          |UNUSED   |           |1             |          |         |           |         |         |          |           |                |
 |B14       |           |DIFFM    |IO_L01P_1/VRN_1    |UNUSED   |           |1             |          |         |           |         |         |          |           |                |
@@ -74,7 +74,7 @@ Pinout by Pin Number:
 |D4        |           |         |VCCINT             |         |           |              |          |         |           |         |1.2      |          |           |                |
 |D5        |LABVIEW    |IOB      |IO/VREF_0          |INPUT    |LVCMOS25*  |0             |          |         |           |NONE     |         |LOCATED   |NO         |NONE            |
 |D6        |LASER      |IOB      |IO_L27P_0          |OUTPUT   |LVCMOS25*  |0             |12        |SLOW     |NONE**     |         |         |LOCATED   |NO         |NONE            |
-|D7        |LabVIEWOUT |IOB      |IO_L29P_0          |OUTPUT   |LVCMOS25*  |0             |12        |SLOW     |NONE**     |         |         |LOCATED   |NO         |NONE            |
+|D7        |           |DIFFM    |IO_L29P_0          |UNUSED   |           |0             |          |         |           |         |         |          |           |                |
 |D8        |           |DIFFS    |IO_L31N_0          |UNUSED   |           |0             |          |         |           |         |         |          |           |                |
 |D9        |           |DIFFM    |IO_L32P_1/GCLK4    |UNUSED   |           |1             |          |         |           |         |         |          |           |                |
 |D10       |           |DIFFS    |IO_L30N_1          |UNUSED   |           |1             |          |         |           |         |         |          |           |                |
@@ -92,7 +92,7 @@ Pinout by Pin Number:
 |E6        |D0         |IOB      |IO_L27N_0          |INPUT    |LVCMOS25*  |0             |          |         |           |NONE     |         |LOCATED   |NO         |NONE            |
 |E7        |PULSES     |IOB      |IO_L29N_0          |INPUT    |LVCMOS25*  |0             |          |         |           |NONE     |         |LOCATED   |NO         |NONE            |
 |E8        |           |         |VCCO_0             |         |           |0             |          |         |           |         |2.50     |          |           |                |
-|E9        |           |         |VCCO_1             |         |           |1             |          |         |           |         |any******|          |           |                |
+|E9        |           |         |VCCO_1             |         |           |1             |          |         |           |         |2.50     |          |           |                |
 |E10       |           |DIFFM    |IO_L30P_1          |UNUSED   |           |1             |          |         |           |         |         |          |           |                |
 |E11       |           |DIFFM    |IO_L28P_1          |UNUSED   |           |1             |          |         |           |         |         |          |           |                |
 |E12       |           |         |VCCINT             |         |           |              |          |         |           |         |1.2      |          |           |                |
@@ -108,8 +108,8 @@ Pinout by Pin Number:
 |F6        |           |         |GND                |         |           |              |          |         |           |         |         |          |           |                |
 |F7        |           |         |VCCO_0             |         |           |0             |          |         |           |         |2.50     |          |           |                |
 |F8        |           |         |VCCO_0             |         |           |0             |          |         |           |         |2.50     |          |           |                |
-|F9        |           |         |VCCO_1             |         |           |1             |          |         |           |         |any******|          |           |                |
-|F10       |           |         |VCCO_1             |         |           |1             |          |         |           |         |any******|          |           |                |
+|F9        |           |         |VCCO_1             |         |           |1             |          |         |           |         |2.50     |          |           |                |
+|F10       |           |         |VCCO_1             |         |           |1             |          |         |           |         |2.50     |          |           |                |
 |F11       |           |         |GND                |         |           |              |          |         |           |         |         |          |           |                |
 |F12       |           |DIFFS    |IO_L21N_2          |UNUSED   |           |2             |          |         |           |         |         |          |           |                |
 |F13       |HexOut<2>  |IOB      |IO_L21P_2          |OUTPUT   |LVCMOS25*  |2             |12        |SLOW     |NONE**     |         |         |LOCATED   |NO         |NONE            |

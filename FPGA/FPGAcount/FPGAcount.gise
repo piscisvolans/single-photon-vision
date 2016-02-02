@@ -75,121 +75,137 @@
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1447190503" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1447190503">
+    <transform xil_pn:end_ts="1454366213" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1454366213">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1447190507" xil_pn:in_ck="8730990972535918875" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-392798740937104166" xil_pn:start_ts="1447190503">
+    <transform xil_pn:end_ts="1454366216" xil_pn:in_ck="8730990972535918875" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-392798740937104166" xil_pn:start_ts="1454366213">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="MichaelsFPGAVision.vhf"/>
-    </transform>
-    <transform xil_pn:end_ts="1447190507" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="7714014026386933755" xil_pn:start_ts="1447190507">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1447190507" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1447190507">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1447190507" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-1209051190833932510" xil_pn:start_ts="1447190507">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1447190507" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-6388418249807140552" xil_pn:start_ts="1447190507">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1447190507" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-8572986520596882619" xil_pn:start_ts="1447190507">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1447190519" xil_pn:in_ck="-4644796641468869084" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="1451256937248715614" xil_pn:start_ts="1447190507">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="WarningsGenerated"/>
-      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="MichaelsFPGAVision.jhd"/>
-      <outfile xil_pn:name="MichaelsFPGAVision.lso"/>
-      <outfile xil_pn:name="MichaelsFPGAVision.ngc"/>
-      <outfile xil_pn:name="MichaelsFPGAVision.ngr"/>
-      <outfile xil_pn:name="MichaelsFPGAVision.prj"/>
-      <outfile xil_pn:name="MichaelsFPGAVision.stx"/>
-      <outfile xil_pn:name="MichaelsFPGAVision.syr"/>
-      <outfile xil_pn:name="MichaelsFPGAVision.xst"/>
-      <outfile xil_pn:name="MichaelsFPGAVision_vhdl.prj"/>
-      <outfile xil_pn:name="MichaelsFPGAVision_xst.xrpt"/>
-      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
-      <outfile xil_pn:name="webtalk_pn.xml"/>
-      <outfile xil_pn:name="xst"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
-    <transform xil_pn:end_ts="1447190519" xil_pn:in_ck="112481647050" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="7677814342020809854" xil_pn:start_ts="1447190519">
+    <transform xil_pn:end_ts="1454366216" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="7714014026386933755" xil_pn:start_ts="1454366216">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1447190526" xil_pn:in_ck="-2250610672582963956" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-569883973805433341" xil_pn:start_ts="1447190519">
+    <transform xil_pn:end_ts="1454366216" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1454366216">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="MichaelsFPGAVision.bld"/>
-      <outfile xil_pn:name="MichaelsFPGAVision.ngd"/>
-      <outfile xil_pn:name="MichaelsFPGAVision_ngdbuild.xrpt"/>
-      <outfile xil_pn:name="_ngo"/>
-      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1447190533" xil_pn:in_ck="-2250610629964520979" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="6918683465102363066" xil_pn:start_ts="1447190526">
+    <transform xil_pn:end_ts="1454366216" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-1209051190833932510" xil_pn:start_ts="1454366216">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1454366216" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-6388418249807140552" xil_pn:start_ts="1454366216">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+    </transform>
+    <transform xil_pn:end_ts="1454366216" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-8572986520596882619" xil_pn:start_ts="1454366216">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+    </transform>
+    <transform xil_pn:end_ts="1454366227" xil_pn:in_ck="-4644796641468869084" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="1451256937248715614" xil_pn:start_ts="1454366216">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="MichaelsFPGAVision.pcf"/>
-      <outfile xil_pn:name="MichaelsFPGAVision_map.map"/>
-      <outfile xil_pn:name="MichaelsFPGAVision_map.mrp"/>
-      <outfile xil_pn:name="MichaelsFPGAVision_map.ncd"/>
-      <outfile xil_pn:name="MichaelsFPGAVision_map.ngm"/>
-      <outfile xil_pn:name="MichaelsFPGAVision_map.xrpt"/>
-      <outfile xil_pn:name="MichaelsFPGAVision_summary.xml"/>
-      <outfile xil_pn:name="MichaelsFPGAVision_usage.xml"/>
-      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
-    <transform xil_pn:end_ts="1447190545" xil_pn:in_ck="-1455267787855350682" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5298528756167062855" xil_pn:start_ts="1447190533">
+    <transform xil_pn:end_ts="1454366227" xil_pn:in_ck="112481647050" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="7677814342020809854" xil_pn:start_ts="1454366227">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+    <transform xil_pn:end_ts="1454366233" xil_pn:in_ck="-2250610672582963956" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-569883973805433341" xil_pn:start_ts="1454366227">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1454366238" xil_pn:in_ck="-2250610629964520979" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="6918683465102363066" xil_pn:start_ts="1454366233">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="MichaelsFPGAVision.ncd"/>
-      <outfile xil_pn:name="MichaelsFPGAVision.pad"/>
-      <outfile xil_pn:name="MichaelsFPGAVision.par"/>
-      <outfile xil_pn:name="MichaelsFPGAVision.ptwx"/>
-      <outfile xil_pn:name="MichaelsFPGAVision.unroutes"/>
-      <outfile xil_pn:name="MichaelsFPGAVision.xpi"/>
-      <outfile xil_pn:name="MichaelsFPGAVision_pad.csv"/>
-      <outfile xil_pn:name="MichaelsFPGAVision_pad.txt"/>
-      <outfile xil_pn:name="MichaelsFPGAVision_par.xrpt"/>
-      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
-    <transform xil_pn:end_ts="1447190550" xil_pn:in_ck="-3861917423694800641" xil_pn:name="TRANEXT_bitFile_spartan3" xil_pn:prop_ck="-2672950586390118423" xil_pn:start_ts="1447190545">
+    <transform xil_pn:end_ts="1454366248" xil_pn:in_ck="-1455267787855350682" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5298528756167062855" xil_pn:start_ts="1454366238">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="MichaelsFPGAVision.ut"/>
-      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
-      <outfile xil_pn:name="michaelsfpgavision.bgn"/>
-      <outfile xil_pn:name="michaelsfpgavision.bit"/>
-      <outfile xil_pn:name="michaelsfpgavision.drc"/>
-      <outfile xil_pn:name="webtalk.log"/>
-      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1454366253" xil_pn:in_ck="-3861917423694800641" xil_pn:name="TRANEXT_bitFile_spartan3" xil_pn:prop_ck="-2672950586390118423" xil_pn:start_ts="1454366248">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1453926144" xil_pn:in_ck="4387387190226556809" xil_pn:name="TRAN_configureTargetDevice" xil_pn:prop_ck="-2635841387707318536" xil_pn:start_ts="1453926142">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1447190596" xil_pn:in_ck="4387387190226556809" xil_pn:name="TRAN_genImpactFile" xil_pn:prop_ck="554339812397760226" xil_pn:start_ts="1447190594">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
     </transform>
-    <transform xil_pn:end_ts="1447190545" xil_pn:in_ck="-2250616255598993943" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1447190541">
+    <transform xil_pn:end_ts="1454366248" xil_pn:in_ck="-2250616255598993943" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1454366245">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="MichaelsFPGAVision.twr"/>
-      <outfile xil_pn:name="MichaelsFPGAVision.twx"/>
-      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1454023507" xil_pn:in_ck="-2250610629964520979" xil_pn:name="TRAN_createTimingConstraints" xil_pn:start_ts="1454023507">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
     </transform>
   </transforms>
 
