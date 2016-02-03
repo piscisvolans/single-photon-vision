@@ -7,17 +7,747 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : MichaelsFPGAVision.vhf
--- /___/   /\     Timestamp : 02/01/2016 16:36:54
+-- /___/   /\     Timestamp : 02/03/2016 10:15:26
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
---Command: sch2hdl -intstyle ise -family spartan3 -flat -suppress -vhdl C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/MichaelsFPGAVision.vhf -w C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/MichaelsFPGAVision.sch
+--Command: sch2hdl -intstyle ise -family spartan3 -flat -suppress -vhdl C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount_troubleshooting2/MichaelsFPGAVision.vhf -w C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount_troubleshooting2/MichaelsFPGAVision.sch
 --Design Name: MichaelsFPGAVision
 --Device: spartan3
 --Purpose:
 --    This vhdl netlist is translated from an ECS schematic. It can be 
 --    synthesized and simulated, but it should not be modified. 
 --
+
+library ieee;
+use ieee.std_logic_1164.ALL;
+use ieee.numeric_std.ALL;
+library UNISIM;
+use UNISIM.Vcomponents.ALL;
+
+entity OR8_MXILINX_MichaelsFPGAVision is
+   port ( I0 : in    std_logic; 
+          I1 : in    std_logic; 
+          I2 : in    std_logic; 
+          I3 : in    std_logic; 
+          I4 : in    std_logic; 
+          I5 : in    std_logic; 
+          I6 : in    std_logic; 
+          I7 : in    std_logic; 
+          O  : out   std_logic);
+end OR8_MXILINX_MichaelsFPGAVision;
+
+architecture BEHAVIORAL of OR8_MXILINX_MichaelsFPGAVision is
+   attribute BOX_TYPE   : string ;
+   attribute RLOC       : string ;
+   signal dummy   : std_logic;
+   signal S0      : std_logic;
+   signal S1      : std_logic;
+   signal O_DUMMY : std_logic;
+   component FMAP
+      port ( I1 : in    std_logic; 
+             I2 : in    std_logic; 
+             I3 : in    std_logic; 
+             I4 : in    std_logic; 
+             O  : in    std_logic);
+   end component;
+   attribute BOX_TYPE of FMAP : component is "BLACK_BOX";
+   
+   component OR2
+      port ( I0 : in    std_logic; 
+             I1 : in    std_logic; 
+             O  : out   std_logic);
+   end component;
+   attribute BOX_TYPE of OR2 : component is "BLACK_BOX";
+   
+   component OR4
+      port ( I0 : in    std_logic; 
+             I1 : in    std_logic; 
+             I2 : in    std_logic; 
+             I3 : in    std_logic; 
+             O  : out   std_logic);
+   end component;
+   attribute BOX_TYPE of OR4 : component is "BLACK_BOX";
+   
+   attribute RLOC of I_36_91 : label is "X0Y1";
+   attribute RLOC of I_36_116 : label is "X0Y0";
+   attribute RLOC of I_36_117 : label is "X0Y0";
+begin
+   O <= O_DUMMY;
+   I_36_91 : FMAP
+      port map (I1=>S0,
+                I2=>S1,
+                I3=>dummy,
+                I4=>dummy,
+                O=>O_DUMMY);
+   
+   I_36_94 : OR2
+      port map (I0=>S0,
+                I1=>S1,
+                O=>O_DUMMY);
+   
+   I_36_95 : OR4
+      port map (I0=>I4,
+                I1=>I5,
+                I2=>I6,
+                I3=>I7,
+                O=>S1);
+   
+   I_36_112 : OR4
+      port map (I0=>I0,
+                I1=>I1,
+                I2=>I2,
+                I3=>I3,
+                O=>S0);
+   
+   I_36_116 : FMAP
+      port map (I1=>I0,
+                I2=>I1,
+                I3=>I2,
+                I4=>I3,
+                O=>S0);
+   
+   I_36_117 : FMAP
+      port map (I1=>I4,
+                I2=>I5,
+                I3=>I6,
+                I4=>I7,
+                O=>S1);
+   
+end BEHAVIORAL;
+
+
+
+library ieee;
+use ieee.std_logic_1164.ALL;
+use ieee.numeric_std.ALL;
+library UNISIM;
+use UNISIM.Vcomponents.ALL;
+
+entity COMPM16_MXILINX_MichaelsFPGAVision is
+   port ( A  : in    std_logic_vector (15 downto 0); 
+          B  : in    std_logic_vector (15 downto 0); 
+          GT : out   std_logic; 
+          LT : out   std_logic);
+end COMPM16_MXILINX_MichaelsFPGAVision;
+
+architecture BEHAVIORAL of COMPM16_MXILINX_MichaelsFPGAVision is
+   attribute BOX_TYPE   : string ;
+   attribute HU_SET     : string ;
+   signal EQ_1    : std_logic;
+   signal EQ_3    : std_logic;
+   signal EQ_5    : std_logic;
+   signal EQ_7    : std_logic;
+   signal EQ_9    : std_logic;
+   signal EQ_11   : std_logic;
+   signal EQ_13   : std_logic;
+   signal EQ_15   : std_logic;
+   signal EQ2_3   : std_logic;
+   signal EQ4_5   : std_logic;
+   signal EQ6_7   : std_logic;
+   signal EQ8_9   : std_logic;
+   signal EQ8_15  : std_logic;
+   signal EQ10_11 : std_logic;
+   signal EQ12_13 : std_logic;
+   signal EQ14_15 : std_logic;
+   signal GE0_1   : std_logic;
+   signal GE2_3   : std_logic;
+   signal GE4_5   : std_logic;
+   signal GE6_7   : std_logic;
+   signal GE8_9   : std_logic;
+   signal GE10_11 : std_logic;
+   signal GE12_13 : std_logic;
+   signal GE14_15 : std_logic;
+   signal GTA     : std_logic;
+   signal GTB     : std_logic;
+   signal GTC     : std_logic;
+   signal GTD     : std_logic;
+   signal GTE     : std_logic;
+   signal GTF     : std_logic;
+   signal GTG     : std_logic;
+   signal GTH     : std_logic;
+   signal GT_1    : std_logic;
+   signal GT_3    : std_logic;
+   signal GT_5    : std_logic;
+   signal GT_7    : std_logic;
+   signal GT_9    : std_logic;
+   signal GT_11   : std_logic;
+   signal GT_13   : std_logic;
+   signal GT_15   : std_logic;
+   signal GT0_1   : std_logic;
+   signal GT2_3   : std_logic;
+   signal GT4_5   : std_logic;
+   signal GT6_7   : std_logic;
+   signal GT8_9   : std_logic;
+   signal GT10_11 : std_logic;
+   signal GT12_13 : std_logic;
+   signal LE0_1   : std_logic;
+   signal LE2_3   : std_logic;
+   signal LE4_5   : std_logic;
+   signal LE6_7   : std_logic;
+   signal LE8_9   : std_logic;
+   signal LE10_11 : std_logic;
+   signal LE12_13 : std_logic;
+   signal LE14_15 : std_logic;
+   signal LTA     : std_logic;
+   signal LTB     : std_logic;
+   signal LTC     : std_logic;
+   signal LTD     : std_logic;
+   signal LTE     : std_logic;
+   signal LTF     : std_logic;
+   signal LTG     : std_logic;
+   signal LTH     : std_logic;
+   signal LT_1    : std_logic;
+   signal LT_3    : std_logic;
+   signal LT_5    : std_logic;
+   signal LT_7    : std_logic;
+   signal LT_9    : std_logic;
+   signal LT_11   : std_logic;
+   signal LT_13   : std_logic;
+   signal LT_15   : std_logic;
+   signal LT0_1   : std_logic;
+   signal LT2_3   : std_logic;
+   signal LT4_5   : std_logic;
+   signal LT6_7   : std_logic;
+   signal LT8_9   : std_logic;
+   signal LT10_11 : std_logic;
+   signal LT12_13 : std_logic;
+   component AND2B1
+      port ( I0 : in    std_logic; 
+             I1 : in    std_logic; 
+             O  : out   std_logic);
+   end component;
+   attribute BOX_TYPE of AND2B1 : component is "BLACK_BOX";
+   
+   component NOR2
+      port ( I0 : in    std_logic; 
+             I1 : in    std_logic; 
+             O  : out   std_logic);
+   end component;
+   attribute BOX_TYPE of NOR2 : component is "BLACK_BOX";
+   
+   component XNOR2
+      port ( I0 : in    std_logic; 
+             I1 : in    std_logic; 
+             O  : out   std_logic);
+   end component;
+   attribute BOX_TYPE of XNOR2 : component is "BLACK_BOX";
+   
+   component AND3B1
+      port ( I0 : in    std_logic; 
+             I1 : in    std_logic; 
+             I2 : in    std_logic; 
+             O  : out   std_logic);
+   end component;
+   attribute BOX_TYPE of AND3B1 : component is "BLACK_BOX";
+   
+   component OR2
+      port ( I0 : in    std_logic; 
+             I1 : in    std_logic; 
+             O  : out   std_logic);
+   end component;
+   attribute BOX_TYPE of OR2 : component is "BLACK_BOX";
+   
+   component AND2
+      port ( I0 : in    std_logic; 
+             I1 : in    std_logic; 
+             O  : out   std_logic);
+   end component;
+   attribute BOX_TYPE of AND2 : component is "BLACK_BOX";
+   
+   component AND4
+      port ( I0 : in    std_logic; 
+             I1 : in    std_logic; 
+             I2 : in    std_logic; 
+             I3 : in    std_logic; 
+             O  : out   std_logic);
+   end component;
+   attribute BOX_TYPE of AND4 : component is "BLACK_BOX";
+   
+   component AND5
+      port ( I0 : in    std_logic; 
+             I1 : in    std_logic; 
+             I2 : in    std_logic; 
+             I3 : in    std_logic; 
+             I4 : in    std_logic; 
+             O  : out   std_logic);
+   end component;
+   attribute BOX_TYPE of AND5 : component is "BLACK_BOX";
+   
+   component AND3
+      port ( I0 : in    std_logic; 
+             I1 : in    std_logic; 
+             I2 : in    std_logic; 
+             O  : out   std_logic);
+   end component;
+   attribute BOX_TYPE of AND3 : component is "BLACK_BOX";
+   
+   component OR8_MXILINX_MichaelsFPGAVision
+      port ( I0 : in    std_logic; 
+             I1 : in    std_logic; 
+             I2 : in    std_logic; 
+             I3 : in    std_logic; 
+             I4 : in    std_logic; 
+             I5 : in    std_logic; 
+             I6 : in    std_logic; 
+             I7 : in    std_logic; 
+             O  : out   std_logic);
+   end component;
+   
+   attribute HU_SET of I_36_124 : label is "I_36_124_1";
+   attribute HU_SET of I_36_125 : label is "I_36_125_0";
+begin
+   I_36_9 : AND2B1
+      port map (I0=>A(7),
+                I1=>B(7),
+                O=>LT_7);
+   
+   I_36_10 : NOR2
+      port map (I0=>GT6_7,
+                I1=>LT6_7,
+                O=>EQ6_7);
+   
+   I_36_11 : AND2B1
+      port map (I0=>B(7),
+                I1=>A(7),
+                O=>GT_7);
+   
+   I_36_12 : XNOR2
+      port map (I0=>A(7),
+                I1=>B(7),
+                O=>EQ_7);
+   
+   I_36_13 : AND3B1
+      port map (I0=>B(6),
+                I1=>EQ_7,
+                I2=>A(6),
+                O=>GE6_7);
+   
+   I_36_14 : AND3B1
+      port map (I0=>A(6),
+                I1=>EQ_7,
+                I2=>B(6),
+                O=>LE6_7);
+   
+   I_36_15 : OR2
+      port map (I0=>GT_7,
+                I1=>GE6_7,
+                O=>GT6_7);
+   
+   I_36_16 : OR2
+      port map (I0=>LT_7,
+                I1=>LE6_7,
+                O=>LT6_7);
+   
+   I_36_22 : AND2
+      port map (I0=>EQ8_15,
+                I1=>LT6_7,
+                O=>LTD);
+   
+   I_36_23 : AND2
+      port map (I0=>GT6_7,
+                I1=>EQ8_15,
+                O=>GTD);
+   
+   I_36_24 : AND4
+      port map (I0=>GT2_3,
+                I1=>EQ4_5,
+                I2=>EQ6_7,
+                I3=>EQ8_15,
+                O=>GTB);
+   
+   I_36_25 : AND4
+      port map (I0=>EQ8_15,
+                I1=>EQ6_7,
+                I2=>EQ4_5,
+                I3=>LT2_3,
+                O=>LTB);
+   
+   I_36_35 : NOR2
+      port map (I0=>GT2_3,
+                I1=>LT2_3,
+                O=>EQ2_3);
+   
+   I_36_36 : AND2B1
+      port map (I0=>B(3),
+                I1=>A(3),
+                O=>GT_3);
+   
+   I_36_37 : AND2B1
+      port map (I0=>A(1),
+                I1=>B(1),
+                O=>LT_1);
+   
+   I_36_38 : XNOR2
+      port map (I0=>A(3),
+                I1=>B(3),
+                O=>EQ_3);
+   
+   I_36_39 : AND2B1
+      port map (I0=>B(1),
+                I1=>A(1),
+                O=>GT_1);
+   
+   I_36_40 : AND3B1
+      port map (I0=>B(2),
+                I1=>EQ_3,
+                I2=>A(2),
+                O=>GE2_3);
+   
+   I_36_41 : AND3B1
+      port map (I0=>A(2),
+                I1=>EQ_3,
+                I2=>B(2),
+                O=>LE2_3);
+   
+   I_36_42 : OR2
+      port map (I0=>GT_1,
+                I1=>GE0_1,
+                O=>GT0_1);
+   
+   I_36_43 : OR2
+      port map (I0=>GT_3,
+                I1=>GE2_3,
+                O=>GT2_3);
+   
+   I_36_44 : OR2
+      port map (I0=>LT_3,
+                I1=>LE2_3,
+                O=>LT2_3);
+   
+   I_36_50 : OR2
+      port map (I0=>LT_1,
+                I1=>LE0_1,
+                O=>LT0_1);
+   
+   I_36_51 : XNOR2
+      port map (I0=>A(1),
+                I1=>B(1),
+                O=>EQ_1);
+   
+   I_36_52 : AND3B1
+      port map (I0=>A(0),
+                I1=>EQ_1,
+                I2=>B(0),
+                O=>LE0_1);
+   
+   I_36_53 : AND5
+      port map (I0=>EQ8_15,
+                I1=>EQ6_7,
+                I2=>EQ4_5,
+                I3=>EQ2_3,
+                I4=>LT0_1,
+                O=>LTA);
+   
+   I_36_54 : AND3B1
+      port map (I0=>B(0),
+                I1=>EQ_1,
+                I2=>A(0),
+                O=>GE0_1);
+   
+   I_36_55 : AND5
+      port map (I0=>GT0_1,
+                I1=>EQ2_3,
+                I2=>EQ4_5,
+                I3=>EQ6_7,
+                I4=>EQ8_15,
+                O=>GTA);
+   
+   I_36_57 : AND3
+      port map (I0=>GT4_5,
+                I1=>EQ6_7,
+                I2=>EQ8_15,
+                O=>GTC);
+   
+   I_36_58 : AND3
+      port map (I0=>EQ8_15,
+                I1=>EQ6_7,
+                I2=>LT4_5,
+                O=>LTC);
+   
+   I_36_59 : NOR2
+      port map (I0=>GT10_11,
+                I1=>LT10_11,
+                O=>EQ10_11);
+   
+   I_36_60 : AND3
+      port map (I0=>EQ14_15,
+                I1=>EQ12_13,
+                I2=>LT10_11,
+                O=>LTF);
+   
+   I_36_61 : AND2
+      port map (I0=>GT12_13,
+                I1=>EQ14_15,
+                O=>GTG);
+   
+   I_36_62 : AND2
+      port map (I0=>EQ14_15,
+                I1=>LT12_13,
+                O=>LTG);
+   
+   I_36_63 : AND4
+      port map (I0=>EQ14_15,
+                I1=>EQ12_13,
+                I2=>EQ10_11,
+                I3=>LT8_9,
+                O=>LTE);
+   
+   I_36_64 : AND4
+      port map (I0=>GT8_9,
+                I1=>EQ10_11,
+                I2=>EQ12_13,
+                I3=>EQ14_15,
+                O=>GTE);
+   
+   I_36_65 : AND3
+      port map (I0=>GT10_11,
+                I1=>EQ12_13,
+                I2=>EQ14_15,
+                O=>GTF);
+   
+   I_36_66 : OR2
+      port map (I0=>LT_15,
+                I1=>LE14_15,
+                O=>LTH);
+   
+   I_36_67 : OR2
+      port map (I0=>GT_15,
+                I1=>GE14_15,
+                O=>GTH);
+   
+   I_36_68 : OR2
+      port map (I0=>GT_13,
+                I1=>GE12_13,
+                O=>GT12_13);
+   
+   I_36_69 : AND3B1
+      port map (I0=>A(12),
+                I1=>EQ_13,
+                I2=>B(12),
+                O=>LE12_13);
+   
+   I_36_70 : AND3B1
+      port map (I0=>B(12),
+                I1=>EQ_13,
+                I2=>A(12),
+                O=>GE12_13);
+   
+   I_36_71 : AND3B1
+      port map (I0=>A(14),
+                I1=>EQ_15,
+                I2=>B(14),
+                O=>LE14_15);
+   
+   I_36_72 : AND3B1
+      port map (I0=>B(14),
+                I1=>EQ_15,
+                I2=>A(14),
+                O=>GE14_15);
+   
+   I_36_73 : XNOR2
+      port map (I0=>A(13),
+                I1=>B(13),
+                O=>EQ_13);
+   
+   I_36_74 : AND2B1
+      port map (I0=>B(13),
+                I1=>A(13),
+                O=>GT_13);
+   
+   I_36_75 : XNOR2
+      port map (I0=>A(15),
+                I1=>B(15),
+                O=>EQ_15);
+   
+   I_36_76 : AND2B1
+      port map (I0=>A(13),
+                I1=>B(13),
+                O=>LT_13);
+   
+   I_36_77 : AND2B1
+      port map (I0=>B(15),
+                I1=>A(15),
+                O=>GT_15);
+   
+   I_36_78 : OR2
+      port map (I0=>LT_13,
+                I1=>LE12_13,
+                O=>LT12_13);
+   
+   I_36_79 : NOR2
+      port map (I0=>GTH,
+                I1=>LTH,
+                O=>EQ14_15);
+   
+   I_36_80 : AND2B1
+      port map (I0=>A(11),
+                I1=>B(11),
+                O=>LT_11);
+   
+   I_36_81 : OR2
+      port map (I0=>LT_9,
+                I1=>LE8_9,
+                O=>LT8_9);
+   
+   I_36_82 : AND2B1
+      port map (I0=>B(11),
+                I1=>A(11),
+                O=>GT_11);
+   
+   I_36_83 : AND2B1
+      port map (I0=>A(9),
+                I1=>B(9),
+                O=>LT_9);
+   
+   I_36_84 : XNOR2
+      port map (I0=>A(11),
+                I1=>B(11),
+                O=>EQ_11);
+   
+   I_36_85 : AND2B1
+      port map (I0=>B(9),
+                I1=>A(9),
+                O=>GT_9);
+   
+   I_36_86 : XNOR2
+      port map (I0=>A(9),
+                I1=>B(9),
+                O=>EQ_9);
+   
+   I_36_87 : AND3B1
+      port map (I0=>B(10),
+                I1=>EQ_11,
+                I2=>A(10),
+                O=>GE10_11);
+   
+   I_36_88 : AND3B1
+      port map (I0=>A(10),
+                I1=>EQ_11,
+                I2=>B(10),
+                O=>LE10_11);
+   
+   I_36_89 : AND3B1
+      port map (I0=>B(8),
+                I1=>EQ_9,
+                I2=>A(8),
+                O=>GE8_9);
+   
+   I_36_90 : AND3B1
+      port map (I0=>A(8),
+                I1=>EQ_9,
+                I2=>B(8),
+                O=>LE8_9);
+   
+   I_36_91 : OR2
+      port map (I0=>GT_9,
+                I1=>GE8_9,
+                O=>GT8_9);
+   
+   I_36_92 : OR2
+      port map (I0=>GT_11,
+                I1=>GE10_11,
+                O=>GT10_11);
+   
+   I_36_93 : OR2
+      port map (I0=>LT_11,
+                I1=>LE10_11,
+                O=>LT10_11);
+   
+   I_36_94 : NOR2
+      port map (I0=>GT12_13,
+                I1=>LT12_13,
+                O=>EQ12_13);
+   
+   I_36_95 : AND2B1
+      port map (I0=>A(15),
+                I1=>B(15),
+                O=>LT_15);
+   
+   I_36_96 : NOR2
+      port map (I0=>GT4_5,
+                I1=>LT4_5,
+                O=>EQ4_5);
+   
+   I_36_97 : OR2
+      port map (I0=>LT_5,
+                I1=>LE4_5,
+                O=>LT4_5);
+   
+   I_36_98 : AND2B1
+      port map (I0=>A(5),
+                I1=>B(5),
+                O=>LT_5);
+   
+   I_36_99 : AND2B1
+      port map (I0=>B(5),
+                I1=>A(5),
+                O=>GT_5);
+   
+   I_36_100 : XNOR2
+      port map (I0=>A(5),
+                I1=>B(5),
+                O=>EQ_5);
+   
+   I_36_101 : AND3B1
+      port map (I0=>B(4),
+                I1=>EQ_5,
+                I2=>A(4),
+                O=>GE4_5);
+   
+   I_36_102 : AND3B1
+      port map (I0=>A(4),
+                I1=>EQ_5,
+                I2=>B(4),
+                O=>LE4_5);
+   
+   I_36_103 : OR2
+      port map (I0=>GT_5,
+                I1=>GE4_5,
+                O=>GT4_5);
+   
+   I_36_111 : NOR2
+      port map (I0=>GT8_9,
+                I1=>LT8_9,
+                O=>EQ8_9);
+   
+   I_36_114 : AND2B1
+      port map (I0=>A(3),
+                I1=>B(3),
+                O=>LT_3);
+   
+   I_36_124 : OR8_MXILINX_MichaelsFPGAVision
+      port map (I0=>LTH,
+                I1=>LTG,
+                I2=>LTF,
+                I3=>LTE,
+                I4=>LTD,
+                I5=>LTC,
+                I6=>LTB,
+                I7=>LTA,
+                O=>LT);
+   
+   I_36_125 : OR8_MXILINX_MichaelsFPGAVision
+      port map (I0=>GTD,
+                I1=>GTC,
+                I2=>GTB,
+                I3=>GTA,
+                I4=>GTH,
+                I5=>GTG,
+                I6=>GTF,
+                I7=>GTE,
+                O=>GT);
+   
+   I_36_162 : AND4
+      port map (I0=>EQ14_15,
+                I1=>EQ12_13,
+                I2=>EQ10_11,
+                I3=>EQ8_9,
+                O=>EQ8_15);
+   
+end BEHAVIORAL;
+
+
 
 library ieee;
 use ieee.std_logic_1164.ALL;
@@ -409,8 +1139,8 @@ architecture BEHAVIORAL of CB2CE_MXILINX_MichaelsFPGAVision is
    end component;
    attribute BOX_TYPE of VCC : component is "BLACK_BOX";
    
-   attribute HU_SET of I_Q0 : label is "I_Q0_0";
-   attribute HU_SET of I_Q1 : label is "I_Q1_1";
+   attribute HU_SET of I_Q0 : label is "I_Q0_2";
+   attribute HU_SET of I_Q1 : label is "I_Q1_3";
 begin
    Q0 <= Q0_DUMMY;
    Q1 <= Q1_DUMMY;
@@ -888,176 +1618,6 @@ use ieee.numeric_std.ALL;
 library UNISIM;
 use UNISIM.Vcomponents.ALL;
 
-entity COMP16_MXILINX_MichaelsFPGAVision is
-   port ( A  : in    std_logic_vector (15 downto 0); 
-          B  : in    std_logic_vector (15 downto 0); 
-          EQ : out   std_logic);
-end COMP16_MXILINX_MichaelsFPGAVision;
-
-architecture BEHAVIORAL of COMP16_MXILINX_MichaelsFPGAVision is
-   attribute BOX_TYPE   : string ;
-   signal ABCF : std_logic;
-   signal AB0  : std_logic;
-   signal AB1  : std_logic;
-   signal AB2  : std_logic;
-   signal AB3  : std_logic;
-   signal AB4  : std_logic;
-   signal AB5  : std_logic;
-   signal AB6  : std_logic;
-   signal AB7  : std_logic;
-   signal AB8  : std_logic;
-   signal AB8B : std_logic;
-   signal AB9  : std_logic;
-   signal AB03 : std_logic;
-   signal AB10 : std_logic;
-   signal AB11 : std_logic;
-   signal AB12 : std_logic;
-   signal AB13 : std_logic;
-   signal AB14 : std_logic;
-   signal AB15 : std_logic;
-   signal AB47 : std_logic;
-   component AND4
-      port ( I0 : in    std_logic; 
-             I1 : in    std_logic; 
-             I2 : in    std_logic; 
-             I3 : in    std_logic; 
-             O  : out   std_logic);
-   end component;
-   attribute BOX_TYPE of AND4 : component is "BLACK_BOX";
-   
-   component XNOR2
-      port ( I0 : in    std_logic; 
-             I1 : in    std_logic; 
-             O  : out   std_logic);
-   end component;
-   attribute BOX_TYPE of XNOR2 : component is "BLACK_BOX";
-   
-begin
-   I_36_31 : AND4
-      port map (I0=>ABCF,
-                I1=>AB8B,
-                I2=>AB47,
-                I3=>AB03,
-                O=>EQ);
-   
-   I_36_40 : XNOR2
-      port map (I0=>B(1),
-                I1=>A(1),
-                O=>AB1);
-   
-   I_36_41 : XNOR2
-      port map (I0=>B(0),
-                I1=>A(0),
-                O=>AB0);
-   
-   I_36_54 : XNOR2
-      port map (I0=>B(2),
-                I1=>A(2),
-                O=>AB2);
-   
-   I_36_55 : XNOR2
-      port map (I0=>B(3),
-                I1=>A(3),
-                O=>AB3);
-   
-   I_36_56 : XNOR2
-      port map (I0=>B(4),
-                I1=>A(4),
-                O=>AB4);
-   
-   I_36_57 : XNOR2
-      port map (I0=>B(5),
-                I1=>A(5),
-                O=>AB5);
-   
-   I_36_58 : XNOR2
-      port map (I0=>B(6),
-                I1=>A(6),
-                O=>AB6);
-   
-   I_36_59 : XNOR2
-      port map (I0=>B(7),
-                I1=>A(7),
-                O=>AB7);
-   
-   I_36_60 : XNOR2
-      port map (I0=>B(8),
-                I1=>A(8),
-                O=>AB8);
-   
-   I_36_61 : XNOR2
-      port map (I0=>B(9),
-                I1=>A(9),
-                O=>AB9);
-   
-   I_36_62 : XNOR2
-      port map (I0=>B(10),
-                I1=>A(10),
-                O=>AB10);
-   
-   I_36_63 : XNOR2
-      port map (I0=>B(11),
-                I1=>A(11),
-                O=>AB11);
-   
-   I_36_64 : XNOR2
-      port map (I0=>B(12),
-                I1=>A(12),
-                O=>AB12);
-   
-   I_36_65 : XNOR2
-      port map (I0=>B(13),
-                I1=>A(13),
-                O=>AB13);
-   
-   I_36_66 : XNOR2
-      port map (I0=>B(14),
-                I1=>A(14),
-                O=>AB14);
-   
-   I_36_67 : XNOR2
-      port map (I0=>B(15),
-                I1=>A(15),
-                O=>AB15);
-   
-   I_36_68 : AND4
-      port map (I0=>AB7,
-                I1=>AB6,
-                I2=>AB5,
-                I3=>AB4,
-                O=>AB47);
-   
-   I_36_69 : AND4
-      port map (I0=>AB11,
-                I1=>AB10,
-                I2=>AB9,
-                I3=>AB8,
-                O=>AB8B);
-   
-   I_36_70 : AND4
-      port map (I0=>AB15,
-                I1=>AB14,
-                I2=>AB13,
-                I3=>AB12,
-                O=>ABCF);
-   
-   I_36_71 : AND4
-      port map (I0=>AB3,
-                I1=>AB2,
-                I2=>AB1,
-                I3=>AB0,
-                O=>AB03);
-   
-end BEHAVIORAL;
-
-
-
-library ieee;
-use ieee.std_logic_1164.ALL;
-use ieee.numeric_std.ALL;
-library UNISIM;
-use UNISIM.Vcomponents.ALL;
-
 entity FD4CE_MXILINX_MichaelsFPGAVision is
    port ( C   : in    std_logic; 
           CE  : in    std_logic; 
@@ -1145,7 +1705,6 @@ architecture BEHAVIORAL of MichaelsFPGAVision is
    attribute HU_SET     : string ;
    attribute BOX_TYPE   : string ;
    signal COUNTS                 : std_logic_vector (15 downto 0);
-   signal EQUAL                  : std_logic;
    signal LOADLSB                : std_logic;
    signal LOADMSB                : std_logic;
    signal LOAD1                  : std_logic;
@@ -1195,6 +1754,10 @@ architecture BEHAVIORAL of MichaelsFPGAVision is
    signal XLXN_196               : std_logic;
    signal XLXN_198               : std_logic;
    signal XLXN_200               : std_logic;
+   signal XLXN_208               : std_logic;
+   signal XLXN_220               : std_logic;
+   signal XLXN_222               : std_logic;
+   signal XLXN_223               : std_logic;
    signal LASER_DUMMY            : std_logic;
    signal XLXI_15_CLR_openSignal : std_logic;
    signal XLXI_16_CLR_openSignal : std_logic;
@@ -1285,12 +1848,6 @@ architecture BEHAVIORAL of MichaelsFPGAVision is
              DOUT : out   std_logic_vector (15 downto 0));
    end component;
    
-   component COMP16_MXILINX_MichaelsFPGAVision
-      port ( A  : in    std_logic_vector (15 downto 0); 
-             B  : in    std_logic_vector (15 downto 0); 
-             EQ : out   std_logic);
-   end component;
-   
    component GND
       port ( G : out   std_logic);
    end component;
@@ -1343,16 +1900,37 @@ architecture BEHAVIORAL of MichaelsFPGAVision is
              TC  : out   std_logic);
    end component;
    
-   attribute HU_SET of XLXI_5 : label is "XLXI_5_7";
-   attribute HU_SET of XLXI_12 : label is "XLXI_12_8";
-   attribute HU_SET of XLXI_15 : label is "XLXI_15_2";
-   attribute HU_SET of XLXI_16 : label is "XLXI_16_3";
-   attribute HU_SET of XLXI_17 : label is "XLXI_17_4";
-   attribute HU_SET of XLXI_24 : label is "XLXI_24_5";
-   attribute HU_SET of XLXI_81 : label is "XLXI_81_6";
-   attribute HU_SET of XLXI_128 : label is "XLXI_128_9";
-   attribute HU_SET of XLXI_138 : label is "XLXI_138_10";
-   attribute HU_SET of XLXI_149 : label is "XLXI_149_11";
+   component COMPM16_MXILINX_MichaelsFPGAVision
+      port ( A  : in    std_logic_vector (15 downto 0); 
+             B  : in    std_logic_vector (15 downto 0); 
+             GT : out   std_logic; 
+             LT : out   std_logic);
+   end component;
+   
+   component NOR2
+      port ( I0 : in    std_logic; 
+             I1 : in    std_logic; 
+             O  : out   std_logic);
+   end component;
+   attribute BOX_TYPE of NOR2 : component is "BLACK_BOX";
+   
+   component OR2
+      port ( I0 : in    std_logic; 
+             I1 : in    std_logic; 
+             O  : out   std_logic);
+   end component;
+   attribute BOX_TYPE of OR2 : component is "BLACK_BOX";
+   
+   attribute HU_SET of XLXI_5 : label is "XLXI_5_8";
+   attribute HU_SET of XLXI_12 : label is "XLXI_12_9";
+   attribute HU_SET of XLXI_15 : label is "XLXI_15_4";
+   attribute HU_SET of XLXI_16 : label is "XLXI_16_5";
+   attribute HU_SET of XLXI_17 : label is "XLXI_17_6";
+   attribute HU_SET of XLXI_24 : label is "XLXI_24_7";
+   attribute HU_SET of XLXI_128 : label is "XLXI_128_10";
+   attribute HU_SET of XLXI_138 : label is "XLXI_138_11";
+   attribute HU_SET of XLXI_149 : label is "XLXI_149_12";
+   attribute HU_SET of XLXI_152 : label is "XLXI_152_13";
 begin
    LASER <= LASER_DUMMY;
    XLXI_5 : CC16CE_MXILINX_MichaelsFPGAVision
@@ -1479,18 +2057,13 @@ begin
                 D15=>XLXN_107,
                 DOUT(15 downto 0)=>THRESHOLD(15 downto 0));
    
-   XLXI_81 : COMP16_MXILINX_MichaelsFPGAVision
-      port map (A(15 downto 0)=>COUNTS(15 downto 0),
-                B(15 downto 0)=>THRESHOLD(15 downto 0),
-                EQ=>EQUAL);
-   
    XLXI_90 : AND2
       port map (I0=>XLXN_141,
                 I1=>LABVIEW,
                 O=>LASER_DUMMY);
    
    XLXI_102 : INV
-      port map (I=>EQUAL,
+      port map (I=>XLXN_223,
                 O=>XLXN_141);
    
    XLXI_103 : INV
@@ -1584,6 +2157,22 @@ begin
    
    XLXI_151 : GND
       port map (G=>XLXN_200);
+   
+   XLXI_152 : COMPM16_MXILINX_MichaelsFPGAVision
+      port map (A(15 downto 0)=>COUNTS(15 downto 0),
+                B(15 downto 0)=>THRESHOLD(15 downto 0),
+                GT=>XLXN_222,
+                LT=>XLXN_208);
+   
+   XLXI_153 : NOR2
+      port map (I0=>XLXN_208,
+                I1=>XLXN_222,
+                O=>XLXN_220);
+   
+   XLXI_154 : OR2
+      port map (I0=>XLXN_220,
+                I1=>XLXN_222,
+                O=>XLXN_223);
    
 end BEHAVIORAL;
 

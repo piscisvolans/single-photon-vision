@@ -1,7 +1,0 @@
-vhdl work "C:\Users\lab\Documents\GitHub\single-photon-vision\FPGA\FPGAcount_troubleshooting2\mux4to1.vhd"
-vhdl work "C:\Users\lab\Documents\GitHub\single-photon-vision\FPGA\FPGAcount_troubleshooting2\HexDriver.vhd"
-vhdl work "C:\Users\lab\Documents\GitHub\single-photon-vision\FPGA\FPGAcount_troubleshooting2\dmux4to1.vhd"
-vhdl work "C:\Users\lab\Documents\GitHub\single-photon-vision\FPGA\FPGAcount_troubleshooting2\BUS2TO1.vhd"
-vhdl work "C:\Users\lab\Documents\GitHub\single-photon-vision\FPGA\FPGAcount_troubleshooting2\BUS16TO4.vhd"
-vhdl work "C:\Users\lab\Documents\GitHub\single-photon-vision\FPGA\FPGAcount_troubleshooting2\BUS16TO1.vhd"
-vhdl work "C:\Users\lab\Documents\GitHub\single-photon-vision\FPGA\FPGAcount_troubleshooting2\MichaelsFPGAVision.vhf"

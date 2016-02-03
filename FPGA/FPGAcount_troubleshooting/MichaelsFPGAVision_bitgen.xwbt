@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=C:\Users\lab\Documents\GitHub\single-photon-vision\FPGA\FPGAcount_troubleshooting\MichaelsFPGAVision.ncd
-OUTFILE=C:\Users\lab\Documents\GitHub\single-photon-vision\FPGA\FPGAcount_troubleshooting\MichaelsFPGAVision.bit
-FAMILY=Spartan3
-PART=xc3s400-4ft256
-WORKINGDIR=C:\Users\lab\Documents\GitHub\single-photon-vision\FPGA\FPGAcount_troubleshooting
-LICENSE=ISE
-USER_INFO=205975957_174111387_210584540_148

@@ -1,6 +1,0 @@
-vhdl work "mux4to1.vhd"
-vhdl work "HexDriver.vhd"
-vhdl work "dmux4to1.vhd"
-vhdl work "BUS2TO1.vhd"
-vhdl work "BUS16TO4.vhd"
-vhdl work "MichaelsFPGAVision.vhf"

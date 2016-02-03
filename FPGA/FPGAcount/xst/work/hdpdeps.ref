@@ -1,72 +1,10 @@
-V3 60
+V3 79
 FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/BUS16TO1.vhd 2014/03/04.10:41:30 P.20131013
-EN work/BUS16TO1 1454366219 \
-      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/BUS16TO1.vhd \
-      PB ieee/std_logic_1164 1381692176
-AR work/BUS16TO1/Behavioral 1454366220 \
-      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/BUS16TO1.vhd \
-      EN work/BUS16TO1 1454366219
 FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/BUS16TO4.vhd 2014/03/04.10:41:30 P.20131013
-EN work/BUSTO4 1454366229 \
-      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/BUS16TO4.vhd \
-      PB ieee/std_logic_1164 1381692176
-AR work/BUSTO4/Behavioral 1454366230 \
-      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/BUS16TO4.vhd \
-      EN work/BUSTO4 1454366229
 FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/BUS2TO1.vhd 2014/03/04.10:41:30 P.20131013
-EN work/BUS2TO1 1454366225 \
-      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/BUS2TO1.vhd \
-      PB ieee/std_logic_1164 1381692176
-AR work/BUS2TO1/Behavioral 1454366226 \
-      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/BUS2TO1.vhd \
-      EN work/BUS2TO1 1454366225
 FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/dmux4to1.vhd 2014/03/04.10:41:30 P.20131013
-EN work/demultiplexer_case 1454366227 \
-      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/dmux4to1.vhd \
-      PB ieee/std_logic_1164 1381692176
-AR work/demultiplexer_case/demultiplexer_case_arc 1454366228 \
-      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/dmux4to1.vhd \
-      EN work/demultiplexer_case 1454366227
 FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/HexDriver.vhd 2016/02/01.16:27:58 P.20131013
-EN work/hex_display 1454366221 \
-      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/HexDriver.vhd \
-      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
-      PB ieee/STD_LOGIC_UNSIGNED 1381692179
-AR work/hex_display/behavioral 1454366222 \
-      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/HexDriver.vhd \
-      EN work/hex_display 1454366221
 FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/MichaelsFPGAVision.vhf 2016/02/01.16:36:55 P.20131013
-EN work/CC8CE_MXILINX_MichaelsFPGAVision 1454366231 \
-      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/MichaelsFPGAVision.vhf \
-      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
-      PH unisim/VCOMPONENTS 1381692182
-AR work/CC8CE_MXILINX_MichaelsFPGAVision/BEHAVIORAL 1454366232 \
-      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/MichaelsFPGAVision.vhf \
-      EN work/CC8CE_MXILINX_MichaelsFPGAVision 1454366231 CP MUXCY_L CP XORCY \
-      CP FDCE CP MUXCY CP GND CP VCC CP AND2 CP AND3 CP INV
-EN work/FTCE_MXILINX_MichaelsFPGAVision 1454366233 \
-      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/MichaelsFPGAVision.vhf \
-      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
-      PH unisim/VCOMPONENTS 1381692182
-AR work/FTCE_MXILINX_MichaelsFPGAVision/BEHAVIORAL 1454366234 \
-      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/MichaelsFPGAVision.vhf \
-      EN work/FTCE_MXILINX_MichaelsFPGAVision 1454366233 CP XOR2 CP FDCE
-EN work/CB2CE_MXILINX_MichaelsFPGAVision 1454366235 \
-      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/MichaelsFPGAVision.vhf \
-      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
-      PH unisim/VCOMPONENTS 1381692182
-AR work/CB2CE_MXILINX_MichaelsFPGAVision/BEHAVIORAL 1454366236 \
-      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/MichaelsFPGAVision.vhf \
-      EN work/CB2CE_MXILINX_MichaelsFPGAVision 1454366235 \
-      CP FTCE_MXILINX_MichaelsFPGAVision CP AND2 CP VCC
-EN work/CC16CE_MXILINX_MichaelsFPGAVision 1454366237 \
-      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/MichaelsFPGAVision.vhf \
-      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
-      PH unisim/VCOMPONENTS 1381692182
-AR work/CC16CE_MXILINX_MichaelsFPGAVision/BEHAVIORAL 1454366238 \
-      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/MichaelsFPGAVision.vhf \
-      EN work/CC16CE_MXILINX_MichaelsFPGAVision 1454366237 CP MUXCY_L CP XORCY \
-      CP FDCE CP GND CP VCC CP MUXCY CP AND2 CP AND3 CP INV
 EN work/COMP16_MXILINX_MichaelsFPGAVision 1454366239 \
       FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/MichaelsFPGAVision.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
@@ -74,29 +12,114 @@ EN work/COMP16_MXILINX_MichaelsFPGAVision 1454366239 \
 AR work/COMP16_MXILINX_MichaelsFPGAVision/BEHAVIORAL 1454366240 \
       FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/MichaelsFPGAVision.vhf \
       EN work/COMP16_MXILINX_MichaelsFPGAVision 1454366239 CP AND4 CP XNOR2
-EN work/FD4CE_MXILINX_MichaelsFPGAVision 1454366241 \
-      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/MichaelsFPGAVision.vhf \
+FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/mux4to1.vhd 2014/03/04.10:41:30 P.20131013
+FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount_troubleshooting2/BUS16TO1.vhd 2014/03/04.10:41:30 P.20131013
+EN work/BUS16TO1 1454516134 \
+      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount_troubleshooting2/BUS16TO1.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/BUS16TO1/Behavioral 1454516135 \
+      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount_troubleshooting2/BUS16TO1.vhd \
+      EN work/BUS16TO1 1454516134
+FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount_troubleshooting2/BUS16TO4.vhd 2014/03/04.10:41:30 P.20131013
+EN work/BUSTO4 1454516144 \
+      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount_troubleshooting2/BUS16TO4.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/BUSTO4/Behavioral 1454516145 \
+      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount_troubleshooting2/BUS16TO4.vhd \
+      EN work/BUSTO4 1454516144
+FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount_troubleshooting2/BUS2TO1.vhd 2014/03/04.10:41:30 P.20131013
+EN work/BUS2TO1 1454516140 \
+      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount_troubleshooting2/BUS2TO1.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/BUS2TO1/Behavioral 1454516141 \
+      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount_troubleshooting2/BUS2TO1.vhd \
+      EN work/BUS2TO1 1454516140
+FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount_troubleshooting2/dmux4to1.vhd 2014/03/04.10:41:30 P.20131013
+EN work/demultiplexer_case 1454516142 \
+      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount_troubleshooting2/dmux4to1.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/demultiplexer_case/demultiplexer_case_arc 1454516143 \
+      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount_troubleshooting2/dmux4to1.vhd \
+      EN work/demultiplexer_case 1454516142
+FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount_troubleshooting2/HexDriver.vhd 2016/02/01.16:27:58 P.20131013
+EN work/hex_display 1454516136 \
+      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount_troubleshooting2/HexDriver.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/hex_display/behavioral 1454516137 \
+      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount_troubleshooting2/HexDriver.vhd \
+      EN work/hex_display 1454516136
+FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount_troubleshooting2/MichaelsFPGAVision.vhf 2016/02/03.10:15:27 P.20131013
+EN work/OR8_MXILINX_MichaelsFPGAVision 1454516146 \
+      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount_troubleshooting2/MichaelsFPGAVision.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/FD4CE_MXILINX_MichaelsFPGAVision/BEHAVIORAL 1454366242 \
-      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/MichaelsFPGAVision.vhf \
-      EN work/FD4CE_MXILINX_MichaelsFPGAVision 1454366241 CP FDCE
-EN work/MichaelsFPGAVision 1454366243 \
-      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/MichaelsFPGAVision.vhf \
+AR work/OR8_MXILINX_MichaelsFPGAVision/BEHAVIORAL 1454516147 \
+      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount_troubleshooting2/MichaelsFPGAVision.vhf \
+      EN work/OR8_MXILINX_MichaelsFPGAVision 1454516146 CP FMAP CP OR2 CP OR4
+EN work/COMPM16_MXILINX_MichaelsFPGAVision 1454516148 \
+      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount_troubleshooting2/MichaelsFPGAVision.vhf \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/MichaelsFPGAVision/BEHAVIORAL 1454366244 \
-      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/MichaelsFPGAVision.vhf \
-      EN work/MichaelsFPGAVision 1454366243 CP CC16CE_MXILINX_MichaelsFPGAVision \
+AR work/COMPM16_MXILINX_MichaelsFPGAVision/BEHAVIORAL 1454516149 \
+      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount_troubleshooting2/MichaelsFPGAVision.vhf \
+      EN work/COMPM16_MXILINX_MichaelsFPGAVision 1454516148 CP AND2B1 CP NOR2 \
+      CP XNOR2 CP AND3B1 CP OR2 CP AND2 CP AND4 CP AND5 CP AND3 \
+      CP OR8_MXILINX_MichaelsFPGAVision
+EN work/CC8CE_MXILINX_MichaelsFPGAVision 1454516150 \
+      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount_troubleshooting2/MichaelsFPGAVision.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/CC8CE_MXILINX_MichaelsFPGAVision/BEHAVIORAL 1454516151 \
+      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount_troubleshooting2/MichaelsFPGAVision.vhf \
+      EN work/CC8CE_MXILINX_MichaelsFPGAVision 1454516150 CP MUXCY_L CP XORCY \
+      CP FDCE CP MUXCY CP GND CP VCC CP AND2 CP AND3 CP INV
+EN work/FTCE_MXILINX_MichaelsFPGAVision 1454516152 \
+      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount_troubleshooting2/MichaelsFPGAVision.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FTCE_MXILINX_MichaelsFPGAVision/BEHAVIORAL 1454516153 \
+      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount_troubleshooting2/MichaelsFPGAVision.vhf \
+      EN work/FTCE_MXILINX_MichaelsFPGAVision 1454516152 CP XOR2 CP FDCE
+EN work/CB2CE_MXILINX_MichaelsFPGAVision 1454516154 \
+      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount_troubleshooting2/MichaelsFPGAVision.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/CB2CE_MXILINX_MichaelsFPGAVision/BEHAVIORAL 1454516155 \
+      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount_troubleshooting2/MichaelsFPGAVision.vhf \
+      EN work/CB2CE_MXILINX_MichaelsFPGAVision 1454516154 \
+      CP FTCE_MXILINX_MichaelsFPGAVision CP AND2 CP VCC
+EN work/CC16CE_MXILINX_MichaelsFPGAVision 1454516156 \
+      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount_troubleshooting2/MichaelsFPGAVision.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/CC16CE_MXILINX_MichaelsFPGAVision/BEHAVIORAL 1454516157 \
+      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount_troubleshooting2/MichaelsFPGAVision.vhf \
+      EN work/CC16CE_MXILINX_MichaelsFPGAVision 1454516156 CP MUXCY_L CP XORCY \
+      CP FDCE CP GND CP VCC CP MUXCY CP AND2 CP AND3 CP INV
+EN work/FD4CE_MXILINX_MichaelsFPGAVision 1454516158 \
+      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount_troubleshooting2/MichaelsFPGAVision.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/FD4CE_MXILINX_MichaelsFPGAVision/BEHAVIORAL 1454516159 \
+      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount_troubleshooting2/MichaelsFPGAVision.vhf \
+      EN work/FD4CE_MXILINX_MichaelsFPGAVision 1454516158 CP FDCE
+EN work/MichaelsFPGAVision 1454516160 \
+      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount_troubleshooting2/MichaelsFPGAVision.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/MichaelsFPGAVision/BEHAVIORAL 1454516161 \
+      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount_troubleshooting2/MichaelsFPGAVision.vhf \
+      EN work/MichaelsFPGAVision 1454516160 CP CC16CE_MXILINX_MichaelsFPGAVision \
       CP INV CP CB2CE_MXILINX_MichaelsFPGAVision \
       CP FD4CE_MXILINX_MichaelsFPGAVision CP VCC CP AND2B2 CP AND2B1 CP AND2 \
-      CP BUS16TO1 CP COMP16_MXILINX_MichaelsFPGAVision CP GND CP hex_display \
-      CP mux4to1 CP BUS2TO1 CP demultiplexer_case CP BUSTO4 \
-      CP CC8CE_MXILINX_MichaelsFPGAVision
-FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/mux4to1.vhd 2014/03/04.10:41:30 P.20131013
-EN work/mux4to1 1454366223 \
-      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/mux4to1.vhd \
+      CP BUS16TO1 CP GND CP hex_display CP mux4to1 CP BUS2TO1 CP demultiplexer_case \
+      CP BUSTO4 CP CC8CE_MXILINX_MichaelsFPGAVision \
+      CP COMPM16_MXILINX_MichaelsFPGAVision CP NOR2 CP OR2
+FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount_troubleshooting2/mux4to1.vhd 2014/03/04.10:41:30 P.20131013
+EN work/mux4to1 1454516138 \
+      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount_troubleshooting2/mux4to1.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/mux4to1/behavioral 1454366224 \
-      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/mux4to1.vhd \
-      EN work/mux4to1 1454366223
+AR work/mux4to1/behavioral 1454516139 \
+      FL C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount_troubleshooting2/mux4to1.vhd \
+      EN work/mux4to1 1454516138

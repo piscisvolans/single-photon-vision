@@ -6,8 +6,8 @@ Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
 MichaelsFPGAVision.ngc MichaelsFPGAVision.ngd
 
 Reading NGO file
-"C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount/MichaelsFPGAV
-ision.ngc" ...
+"C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount_troubleshooti
+ng2/MichaelsFPGAVision.ngc" ...
 Gathering constraint information from source properties...
 Done.
 
@@ -29,10 +29,10 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 154056 kilobytes
+Total memory usage is 154568 kilobytes
 
 Writing NGD file "MichaelsFPGAVision.ngd" ...
 Total REAL time to NGDBUILD completion:  4 sec
-Total CPU time to NGDBUILD completion:   3 sec
+Total CPU time to NGDBUILD completion:   4 sec
 
 Writing NGDBUILD log file "MichaelsFPGAVision.bld"...
