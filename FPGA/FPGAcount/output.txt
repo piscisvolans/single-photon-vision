@@ -2,9 +2,8 @@ Storage Target: Xilinx Flash/PROM
 Storage Family: Platform Flash
 xcf02s          [2 M]
 FF
-FPGAcount_2-1-16
-C:\Users\lab\Documents\GitHub\single-photon-vision\FPGA\FPGAcount\
+FPGAcount_troubleshooting2_2-3-16
+C:/Users/lab/Documents/GitHub/single-photon-vision/FPGA/FPGAcount_troubleshooting2
 
 MCS
 No
-o
