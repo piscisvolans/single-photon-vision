@@ -317,6 +317,7 @@
 			</Item>
 			<Item Name="Blocking.vi" Type="VI" URL="../Source/Blocking.vi"/>
 			<Item Name="close.vi" Type="VI" URL="../Drivers and libraries/SMC100 drivers/SMC100_Communication.llb/close.vi"/>
+			<Item Name="Count photons with FPGA.vi" Type="VI" URL="../Source/Count photons with FPGA.vi"/>
 			<Item Name="countphotons.vi" Type="VI" URL="../Source/countphotons.vi"/>
 			<Item Name="Create A New File.vi" Type="VI" URL="../Source/Create A New File.vi"/>
 			<Item Name="dg535 delay.vi" Type="VI" URL="../Drivers and libraries/srdg535/SRDG535.LLB/dg535 delay.vi"/>
@@ -326,16 +327,12 @@
 			<Item Name="dg535 set output.vi" Type="VI" URL="../Drivers and libraries/srdg535/SRDG535.LLB/dg535 set output.vi"/>
 			<Item Name="dg535 trigger.vi" Type="VI" URL="../Drivers and libraries/srdg535/SRDG535.LLB/dg535 trigger.vi"/>
 			<Item Name="flashLED_DG535andcount.vi" Type="VI" URL="../Source/flashLED_DG535andcount.vi"/>
-			<Item Name="FPGAtest.vi" Type="VI" URL="../../../../../Dropbox/Research/Vision software backup (current version on GitHub)/Other VIs/FPGAtest.vi"/>
 			<Item Name="home.vi" Type="VI" URL="../Drivers and libraries/SMC100 drivers/SMC100.llb/home.vi"/>
-			<Item Name="home.vi" Type="VI" URL="../../../../../Dropbox/Research/Vision software backup (current version on GitHub)/SMC100 drivers/SMC100.llb/home.vi"/>
-			<Item Name="initDG535_forFPGA.vi" Type="VI" URL="../../../../../Dropbox/Research/Vision software backup (current version on GitHub)/Other VIs/initDG535_forFPGA.vi"/>
 			<Item Name="Initialize waveplate.vi" Type="VI" URL="../Source/Initialize waveplate.vi"/>
 			<Item Name="Left or right.vi" Type="VI" URL="../Source/Left or right.vi"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
 			<Item Name="lvsound2.dll" Type="Document" URL="/&lt;resource&gt;/lvsound2.dll"/>
 			<Item Name="Move absolute.vi" Type="VI" URL="../Drivers and libraries/SMC100 drivers/SMC100.llb/Move absolute.vi"/>
-			<Item Name="Move absolute.vi" Type="VI" URL="../../../../../Dropbox/Research/Vision software backup (current version on GitHub)/SMC100 drivers/SMC100.llb/Move absolute.vi"/>
 			<Item Name="Move waveplate.vi" Type="VI" URL="../Source/Move waveplate.vi"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -343,25 +340,20 @@
 			<Item Name="Play sound right wrong.vi" Type="VI" URL="../Source/Play sound right wrong.vi"/>
 			<Item Name="Play sound start trial.vi" Type="VI" URL="../Source/Play sound start trial.vi"/>
 			<Item Name="port init.vi" Type="VI" URL="../Drivers and libraries/SMC100 drivers/SMC100_Communication.llb/port init.vi"/>
-			<Item Name="port init.vi" Type="VI" URL="../../../../../Dropbox/Research/Vision software backup (current version on GitHub)/SMC100 drivers/SMC100_Communication.llb/port init.vi"/>
 			<Item Name="Prepare data and write to file.vi" Type="VI" URL="../Source/Prepare data and write to file.vi"/>
 			<Item Name="Pump waveplate.vi" Type="VI" URL="../Source/Pump waveplate.vi"/>
 			<Item Name="Query Keyboard.vi" Type="VI" URL="../Source/Query Keyboard.vi"/>
 			<Item Name="read_write.vi" Type="VI" URL="../Drivers and libraries/SMC100 drivers/SMC100_Communication.llb/read_write.vi"/>
 			<Item Name="reset.vi" Type="VI" URL="../Drivers and libraries/SMC100 drivers/SMC100.llb/reset.vi"/>
-			<Item Name="reset.vi" Type="VI" URL="../../../../../Dropbox/Research/Vision software backup (current version on GitHub)/SMC100 drivers/SMC100.llb/reset.vi"/>
 			<Item Name="Set DG535 for FPGA.vi" Type="VI" URL="../Source/Set DG535 for FPGA.vi"/>
 			<Item Name="Set DG535 for LED.vi" Type="VI" URL="../Source/Set DG535 for LED.vi"/>
-			<Item Name="Set FPGA and generate single photons.vi" Type="VI" URL="../Source/Set FPGA and generate single photons.vi"/>
 			<Item Name="Set FPGA target.vi" Type="VI" URL="../Source/Set FPGA target.vi"/>
 			<Item Name="SimpleControlExample.vi" Type="VI" URL="../Drivers and libraries/SMC100 drivers/SMC100_Simple_Contol_Example.llb/SimpleControlExample.vi"/>
-			<Item Name="SimpleControlExample.vi" Type="VI" URL="../../../../../Dropbox/Research/Vision software backup (current version on GitHub)/SMC100 drivers/SMC100_Simple_Contol_Example.llb/SimpleControlExample.vi"/>
 			<Item Name="Sound File to Sound Output.vi" Type="VI" URL="../Drivers and libraries/Sound File to Sound Output Folder/sound2.llb/Sound File to Sound Output.vi"/>
 			<Item Name="State Machine Fundamentals - State Enum.ctl" Type="VI" URL="../Source/State Machine Fundamentals - State Enum.ctl"/>
 			<Item Name="StateMachineStates 1.ctl" Type="VI" URL="../Source/StateMachineStates 1.ctl"/>
 			<Item Name="tell controller status.vi" Type="VI" URL="../Drivers and libraries/SMC100 drivers/SMC100.llb/tell controller status.vi"/>
 			<Item Name="tell current position.vi" Type="VI" URL="../Drivers and libraries/SMC100 drivers/SMC100.llb/tell current position.vi"/>
-			<Item Name="tell current position.vi" Type="VI" URL="../../../../../Dropbox/Research/Vision software backup (current version on GitHub)/SMC100 drivers/SMC100.llb/tell current position.vi"/>
 			<Item Name="Write Data.vi" Type="VI" URL="../Source/Write Data.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
