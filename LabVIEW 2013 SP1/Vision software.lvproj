@@ -13,6 +13,9 @@
 		<Item Name="Tools" Type="Folder" URL="../Tools">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Working" Type="Folder" URL="../Working">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Vision.vi" Type="VI" URL="../Source/Vision.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
@@ -355,6 +358,8 @@
 			<Item Name="tell controller status.vi" Type="VI" URL="../Drivers and libraries/SMC100 drivers/SMC100.llb/tell controller status.vi"/>
 			<Item Name="tell current position.vi" Type="VI" URL="../Drivers and libraries/SMC100 drivers/SMC100.llb/tell current position.vi"/>
 			<Item Name="Write Data.vi" Type="VI" URL="../Source/Write Data.vi"/>
+			<Item Name="Zaber move 1 step.vi" Type="VI" URL="../Source/Zaber move 1 step.vi"/>
+			<Item Name="Zaber read current position.vi" Type="VI" URL="../Source/Zaber read current position.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
