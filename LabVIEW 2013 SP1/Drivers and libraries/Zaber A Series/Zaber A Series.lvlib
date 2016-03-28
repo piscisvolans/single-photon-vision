@@ -1,12 +1,13 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Library LVVersion="12008004">
+<Library LVVersion="13008000">
 	<Property Name="Instrument Driver" Type="Str">True</Property>
 	<Property Name="NI.Lib.DefaultMenu" Type="Str">dir.mnu</Property>
 	<Property Name="NI.Lib.Description" Type="Str">Driver for Zaber's A Series instruments A-MCA, A-MCB2, A-LSQ, A-LST, A-BLQ, A-BAR, and A-LAR.
 
 See http://www.zaber.com/wiki/Software/ASCII_Labview_Driver for more information.  </Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
-	<Property Name="NI.Lib.Icon" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*&amp;!!!*Q(C=\&gt;1^&lt;NN!%)&lt;BTU'+N,J"I#P-!;*#J:'/8?KZAEK\V"8G"!&amp;U"28O\':S"#)X9*MO]MPB/&amp;"F.D'1!#;V-P8N\OT$(V/K\:0U5:?V&lt;@@K2D_6[F$8?7?\GL`3L_6X26K[[D-@T05LPN\H-6XA:@W?XX.X?FFOX;^8N`@_^`\`OX^F9]T^[K!XXK3&lt;EN+3&amp;D3H7:X&gt;*=G40-G40-G40-C$0-C$0-C$X-G&gt;X-G&gt;X-G&gt;X-C.X-C.X-C.P(:SE9N=Z&amp;S6:0&amp;EI;2I5C!:$%8*6_**0)EH]@"4C3@R**\%EXA9IM34?"*0YEE]4&amp;0C34S**`%E(EK6*'MHRZ.Y++`!%XA#4_!*0#SJQ"-!AM7#QE%2'!I[AY0!%XA#$Y=+0)%H]!3?Q%/X!E`A#4S"*`!QJ;Z+F'&lt;?S@&amp;12I\(]4A?R_.Y+#X(YXA=D_.R0#QHR_.Y()3TI&amp;-=AJR*TA$HB_.R00S2YX%]DM@R/"[[[AZZ8:F:-_`E?!S0Y4%]BM@Q5%+'R`!9(M.D?#ALQW.Y$)`B-4QM*=.D?!S0!4%7:8E:R9S*RC!D-$R][GGROEN2%KO^`T78"V8^!+I@,05$IXY1V$&gt;9@?05.U2^I&gt;585(VBV#?M0B%V5,WQOK"[I#;_2^K:&gt;K)&gt;;1@;1.P4NL4.005P$ZSG3?-Y[HQ_[X1[[8A][H!Y;"A'\@&gt;\&lt;&lt;&gt;&lt;&lt;4;&lt;0W_LT_T,&gt;H0^8HL[_@PO&amp;WX[_O0\/(T\]HA\0MTZ0?0?KCXPJ8`BX;A0OFS^ZLF'TWAY-I5!!!!!</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*&amp;!!!*Q(C=\&gt;1^&lt;NN!%)&lt;BTU'+N,J"I#P-!;*#J:'/8?KZAEK\V"8G"!&amp;U"28O\':S"#)X9*MO]MPB/&amp;"F.D'1!#;V-P8N\OT$(V/K\:0U5:?V&lt;@@K2D_6[F$8?7?\GL`3L_6X26K[[D-@T05LPN\H-6XA:@W?XX.X?FFOX;^8N`@_^`\`OX^F9]T^[K!XXK3&lt;EN+3&amp;D3H7:X&gt;*=G40-G40-G40-C$0-C$0-C$X-G&gt;X-G&gt;X-G&gt;X-C.X-C.X-C.P(:SE9N=Z&amp;S6:0&amp;EI;2I5C!:$%8*6_**0)EH]@"4C3@R**\%EXA9IM34?"*0YEE]4&amp;0C34S**`%E(EK6*'MHRZ.Y++`!%XA#4_!*0#SJQ"-!AM7#QE%2'!I[AY0!%XA#$Y=+0)%H]!3?Q%/X!E`A#4S"*`!QJ;Z+F'&lt;?S@&amp;12I\(]4A?R_.Y+#X(YXA=D_.R0#QHR_.Y()3TI&amp;-=AJR*TA$HB_.R00S2YX%]DM@R/"[[[AZZ8:F:-_`E?!S0Y4%]BM@Q5%+'R`!9(M.D?#ALQW.Y$)`B-4QM*=.D?!S0!4%7:8E:R9S*RC!D-$R][GGROEN2%KO^`T78"V8^!+I@,05$IXY1V$&gt;9@?05.U2^I&gt;585(VBV#?M0B%V5,WQOK"[I#;_2^K:&gt;K)&gt;;1@;1.P4NL4.005P$ZSG3?-Y[HQ_[X1[[8A][H!Y;"A'\@&gt;\&lt;&lt;&gt;&lt;&lt;4;&lt;0W_LT_T,&gt;H0^8HL[_@PO&amp;WX[_O0\/(T\]HA\0MTZ0?0?KCXPJ8`BX;A0OFS^ZLF'TWAY-I5!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">318799872</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Public" Type="Folder">
