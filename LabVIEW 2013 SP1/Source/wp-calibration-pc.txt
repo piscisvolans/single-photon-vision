@@ -1,2 +1,2 @@
-31.4
-76.4
+31.4	Waveplate
+76.4	Pockels cell
