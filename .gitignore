@@ -214,6 +214,8 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+
+#Custom
 LabVIEW 2013 SP1/Tools/Calibration/position.txt
 LabVIEW 2013 SP1/Tools/Calibration/position-translation.txt
 
