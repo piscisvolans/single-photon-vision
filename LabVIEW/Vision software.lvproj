@@ -19,7 +19,6 @@
 		<Item Name="Vision.vi" Type="VI" URL="../Source/Vision.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
-				<Item Name="Zaber A Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Zaber A Series/Zaber A Series.lvlib"/>
 				<Item Name="ZaberTSeries.lvlib" Type="Library" URL="/&lt;instrlib&gt;/ZaberTSeries/ZaberTSeries.lvlib"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
