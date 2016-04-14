@@ -19,25 +19,6 @@
 		<Item Name="Vision.vi" Type="VI" URL="../Source/Vision.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
-				<Item Name="All Commands.ctl" Type="VI" URL="/&lt;instrlib&gt;/Zaber A Series/Private/All Commands.ctl"/>
-				<Item Name="Change Setting.vi" Type="VI" URL="/&lt;instrlib&gt;/Zaber A Series/Public/Configure/Low Level/Change Setting.vi"/>
-				<Item Name="Close.vi" Type="VI" URL="/&lt;instrlib&gt;/Zaber A Series/Public/Close.vi"/>
-				<Item Name="Detect Devices.vi" Type="VI" URL="/&lt;instrlib&gt;/Zaber A Series/Public/Data/Detect Devices.vi"/>
-				<Item Name="Error Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Zaber A Series/Public/Utility/Error Query.vi"/>
-				<Item Name="Get Setting.vi" Type="VI" URL="/&lt;instrlib&gt;/Zaber A Series/Public/Data/Low Level/Get Setting.vi"/>
-				<Item Name="Home.vi" Type="VI" URL="/&lt;instrlib&gt;/Zaber A Series/Public/Action-Status/Home.vi"/>
-				<Item Name="Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/Zaber A Series/Public/Initialize.vi"/>
-				<Item Name="Move.vi" Type="VI" URL="/&lt;instrlib&gt;/Zaber A Series/Public/Action-Status/Move.vi"/>
-				<Item Name="Poll Until Idle.vi" Type="VI" URL="/&lt;instrlib&gt;/Zaber A Series/Public/Action-Status/Low Level/Poll Until Idle.vi"/>
-				<Item Name="Read (Multiple Responses).vi" Type="VI" URL="/&lt;instrlib&gt;/Zaber A Series/Private/Read (Multiple Responses).vi"/>
-				<Item Name="Read Current Position.vi" Type="VI" URL="/&lt;instrlib&gt;/Zaber A Series/Public/Data/Read Current Position.vi"/>
-				<Item Name="Request.vi" Type="VI" URL="/&lt;instrlib&gt;/Zaber A Series/Private/Request.vi"/>
-				<Item Name="Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/Zaber A Series/Public/Utility/Reset.vi"/>
-				<Item Name="Revision Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Zaber A Series/Public/Utility/Revision Query.vi"/>
-				<Item Name="Self-Test.vi" Type="VI" URL="/&lt;instrlib&gt;/Zaber A Series/Public/Utility/Self-Test.vi"/>
-				<Item Name="Send Command.vi" Type="VI" URL="/&lt;instrlib&gt;/Zaber A Series/Public/Action-Status/Low Level/Send Command.vi"/>
-				<Item Name="Set Speed and Acceleration.vi" Type="VI" URL="/&lt;instrlib&gt;/Zaber A Series/Public/Configure/Set Speed and Acceleration.vi"/>
-				<Item Name="Write.vi" Type="VI" URL="/&lt;instrlib&gt;/Zaber A Series/Private/Write.vi"/>
 				<Item Name="Zaber A Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Zaber A Series/Zaber A Series.lvlib"/>
 				<Item Name="ZaberTSeries.lvlib" Type="Library" URL="/&lt;instrlib&gt;/ZaberTSeries/ZaberTSeries.lvlib"/>
 			</Item>
@@ -340,7 +321,6 @@
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
 			<Item Name="Blocking.vi" Type="VI" URL="../Source/Blocking.vi"/>
-			<Item Name="close.vi" Type="VI" URL="../Drivers and libraries/SMC100 drivers/SMC100_Communication.llb/close.vi"/>
 			<Item Name="Count photons with FPGA.vi" Type="VI" URL="../Source/Count photons with FPGA.vi"/>
 			<Item Name="countphotons.vi" Type="VI" URL="../Source/countphotons.vi"/>
 			<Item Name="Create A New File.vi" Type="VI" URL="../Source/Create A New File.vi"/>
@@ -351,7 +331,6 @@
 			<Item Name="dg535 set output.vi" Type="VI" URL="../Drivers and libraries/srdg535/SRDG535.LLB/dg535 set output.vi"/>
 			<Item Name="dg535 trigger.vi" Type="VI" URL="../Drivers and libraries/srdg535/SRDG535.LLB/dg535 trigger.vi"/>
 			<Item Name="flashLED_DG535andcount.vi" Type="VI" URL="../Source/flashLED_DG535andcount.vi"/>
-			<Item Name="home.vi" Type="VI" URL="../Drivers and libraries/SMC100 drivers/SMC100.llb/home.vi"/>
 			<Item Name="Initialize waveplate.vi" Type="VI" URL="../Source/Initialize waveplate.vi"/>
 			<Item Name="Left or right.vi" Type="VI" URL="../Source/Left or right.vi"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
@@ -369,11 +348,13 @@
 			<Item Name="Query Keyboard.vi" Type="VI" URL="../Source/Query Keyboard.vi"/>
 			<Item Name="Read waveplate calibration file.vi" Type="VI" URL="../Source/Read waveplate calibration file.vi"/>
 			<Item Name="read_write.vi" Type="VI" URL="../Drivers and libraries/SMC100 drivers/SMC100_Communication.llb/read_write.vi"/>
-			<Item Name="reset.vi" Type="VI" URL="../Drivers and libraries/SMC100 drivers/SMC100.llb/reset.vi"/>
 			<Item Name="Set DG535 for FPGA.vi" Type="VI" URL="../Source/Set DG535 for FPGA.vi"/>
 			<Item Name="Set DG535 for LED.vi" Type="VI" URL="../Source/Set DG535 for LED.vi"/>
 			<Item Name="Set FPGA target.vi" Type="VI" URL="../Source/Set FPGA target.vi"/>
 			<Item Name="SimpleControlExample.vi" Type="VI" URL="../Drivers and libraries/SMC100 drivers/SMC100_Simple_Contol_Example.llb/SimpleControlExample.vi"/>
+			<Item Name="smc100_close.vi" Type="VI" URL="../Drivers and libraries/SMC100 drivers/SMC100_Communication.llb/smc100_close.vi"/>
+			<Item Name="smc100_home.vi" Type="VI" URL="../Drivers and libraries/SMC100 drivers/SMC100.llb/smc100_home.vi"/>
+			<Item Name="smc100_reset.vi" Type="VI" URL="../Drivers and libraries/SMC100 drivers/SMC100.llb/smc100_reset.vi"/>
 			<Item Name="Sound File to Sound Output.vi" Type="VI" URL="../Drivers and libraries/Sound File to Sound Output Folder/sound2.llb/Sound File to Sound Output.vi"/>
 			<Item Name="State Machine Fundamentals - State Enum.ctl" Type="VI" URL="../Source/State Machine Fundamentals - State Enum.ctl"/>
 			<Item Name="StateMachineStates 1.ctl" Type="VI" URL="../Source/StateMachineStates 1.ctl"/>
