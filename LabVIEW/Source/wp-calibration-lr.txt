@@ -1,2 +1,2 @@
-35.7	Right
-80.7	Left
+36.59	Right
+81.59	Left
