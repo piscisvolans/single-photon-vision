@@ -1,2 +1,3 @@
-36.59	Right
-81.59	Left
+81.59	Right
+36.59	Left
+
