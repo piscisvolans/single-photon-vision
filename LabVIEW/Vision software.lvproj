@@ -16,6 +16,7 @@
 		<Item Name="Working" Type="Folder" URL="../Working">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Find max pump WP angle.vi" Type="VI" URL="../Source/Find max pump WP angle.vi"/>
 		<Item Name="Vision.vi" Type="VI" URL="../Source/Vision.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
@@ -254,6 +255,7 @@
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="mouseAcquire.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/mouseAcquire.vi"/>
+				<Item Name="NIMS_And Generic Elements.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeSupport/NIMS_And Generic Elements.vi"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
@@ -321,6 +323,7 @@
 			</Item>
 			<Item Name="Average trial times for Pump WP.vi" Type="VI" URL="../Source/Average trial times for Pump WP.vi"/>
 			<Item Name="Blocking.vi" Type="VI" URL="../Source/Blocking.vi"/>
+			<Item Name="Calibrate pump waveplate.vi" Type="VI" URL="../Source/Calibrate pump waveplate.vi"/>
 			<Item Name="Count photons with FPGA.vi" Type="VI" URL="../Source/Count photons with FPGA.vi"/>
 			<Item Name="countphotons.vi" Type="VI" URL="../Source/countphotons.vi"/>
 			<Item Name="Create A New File.vi" Type="VI" URL="../Source/Create A New File.vi"/>
@@ -330,15 +333,43 @@
 			<Item Name="DG535 Send Message.vi" Type="VI" URL="../Drivers and libraries/srdg535/SRDG535.LLB/DG535 Send Message.vi"/>
 			<Item Name="dg535 set output.vi" Type="VI" URL="../Drivers and libraries/srdg535/SRDG535.LLB/dg535 set output.vi"/>
 			<Item Name="dg535 trigger.vi" Type="VI" URL="../Drivers and libraries/srdg535/SRDG535.LLB/dg535 trigger.vi"/>
+			<Item Name="error.ctl" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath/Functions/Error Handling/error.ctl"/>
 			<Item Name="flashLED_DG535andcount.vi" Type="VI" URL="../Source/flashLED_DG535andcount.vi"/>
 			<Item Name="Initialize waveplate.vi" Type="VI" URL="../Source/Initialize waveplate.vi"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
 			<Item Name="lvsound2.dll" Type="Document" URL="/&lt;resource&gt;/lvsound2.dll"/>
+			<Item Name="MC_Close_All_Registered_SubVI.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeEngine/Managers/GlobalRegistration/MC_Close_All_Registered_SubVI.vi"/>
+			<Item Name="MC_Get_Notification_Event.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeEngine/Managers/GlobalRegistration/MC_Get_Notification_Event.vi"/>
+			<Item Name="MC_Global_Global.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeEngine/Constants/MC_Global_Global.vi"/>
+			<Item Name="MC_Global_NamesAndDefaultValues.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeEngine/Constants/MC_Global_NamesAndDefaultValues.vi"/>
+			<Item Name="MC_GlobalManager.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeEngine/Managers/GlobalManager/MC_GlobalManager.vi"/>
+			<Item Name="MC_GlobalManager_Actions.ctl" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeEngine/Managers/GlobalManager/MC_GlobalManager_Actions.ctl"/>
+			<Item Name="MC_Register_Notification_Command.ctl" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeEngine/Managers/GlobalRegistration/MC_Register_Notification_Command.ctl"/>
+			<Item Name="MC_Register_Notification_Type.ctl" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeEngine/Managers/GlobalRegistration/MC_Register_Notification_Type.ctl"/>
+			<Item Name="MC_Register_VI_In_Memory.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeEngine/Managers/GlobalRegistration/MC_Register_VI_In_Memory.vi"/>
+			<Item Name="MC_Registered_VIs.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeEngine/Managers/GlobalRegistration/MC_Registered_VIs.vi"/>
+			<Item Name="MC_Registered_VIs_Global.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeEngine/Managers/GlobalRegistration/MC_Registered_VIs_Global.vi"/>
+			<Item Name="MC_Registration_Global.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeEngine/Managers/GlobalRegistration/MC_Registration_Global.vi"/>
 			<Item Name="Move absolute.vi" Type="VI" URL="../Drivers and libraries/SMC100 drivers/SMC100.llb/Move absolute.vi"/>
 			<Item Name="Move waveplate.vi" Type="VI" URL="../Source/Move waveplate.vi"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="NIMS_abs(signed).vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeEngine/BuiltInFunctions/abs/NIMS_abs(signed).vi"/>
+			<Item Name="NIMS_abs(signed)_C4FCB8E6058B49B797C7C8D53CA5F6EC_000.vi" Type="VI" URL="/&lt;instcachedir&gt;/0/NIMS_abs(signed)_C4FCB8E6058B49B797C7C8D53CA5F6EC.lvgen/NIMS_abs(signed)_C4FCB8E6058B49B797C7C8D53CA5F6EC_000.vi"/>
+			<Item Name="NIMS_abs(signed)_C4FCB8E6058B49B797C7C8D53CA5F6EC_002.vi" Type="VI" URL="/&lt;instcachedir&gt;/0/NIMS_abs(signed)_C4FCB8E6058B49B797C7C8D53CA5F6EC.lvgen/NIMS_abs(signed)_C4FCB8E6058B49B797C7C8D53CA5F6EC_002.vi"/>
+			<Item Name="NIMS_And Array Elements.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeSupport/NIMS_And Array Elements.vi"/>
+			<Item Name="NIMS_And Array Elements_631861BECDC54B97B1BA31611A562819_000.vi" Type="VI" URL="/&lt;instcachedir&gt;/0/NIMS_And Array Elements_631861BECDC54B97B1BA31611A562819.lvgen/NIMS_And Array Elements_631861BECDC54B97B1BA31611A562819_000.vi"/>
+			<Item Name="NIMS_And Scalar Element.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeSupport/NIMS_And Scalar Element.vi"/>
+			<Item Name="NIMS_asin(C).vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeEngine/BuiltInFunctions/asin/NIMS_asin(C).vi"/>
+			<Item Name="NIMS_asin(C)_73B68F6B04904A8785972686F67E90FD_001.vi" Type="VI" URL="/&lt;instcachedir&gt;/0/NIMS_asin(C)_73B68F6B04904A8785972686F67E90FD.lvgen/NIMS_asin(C)_73B68F6B04904A8785972686F67E90FD_001.vi"/>
+			<Item Name="NIMS_Complex Is Real.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeSupport/NIMS_Complex Is Real.vi"/>
+			<Item Name="NIMS_Complex Is Real_722E58A242B44362B4BD93C5F83B22D8_004.vi" Type="VI" URL="/&lt;instcachedir&gt;/0/NIMS_Complex Is Real_722E58A242B44362B4BD93C5F83B22D8.lvgen/NIMS_Complex Is Real_722E58A242B44362B4BD93C5F83B22D8_004.vi"/>
+			<Item Name="NIMS_Finalize Error.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeEngine/ErrorHandling/NIMS_Finalize Error.vi"/>
+			<Item Name="NIMS_NodeEndStatement_Output.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeEngine/NodeEndStatement/NIMS_NodeEndStatement_Output.vi"/>
+			<Item Name="NIMS_NodeEndStatement_Output_53EC0D466D134D7ABD903AC30B43404B_001.vi" Type="VI" URL="/&lt;instcachedir&gt;/0/NIMS_NodeEndStatement_Output_53EC0D466D134D7ABD903AC30B43404B.lvgen/NIMS_NodeEndStatement_Output_53EC0D466D134D7ABD903AC30B43404B_001.vi"/>
+			<Item Name="NIMS_NodeEndStatement_Output_53EC0D466D134D7ABD903AC30B43404B_009.vi" Type="VI" URL="/&lt;instcachedir&gt;/0/NIMS_NodeEndStatement_Output_53EC0D466D134D7ABD903AC30B43404B.lvgen/NIMS_NodeEndStatement_Output_53EC0D466D134D7ABD903AC30B43404B_009.vi"/>
+			<Item Name="NIMS_NodeEndStatement_Output_53EC0D466D134D7ABD903AC30B43404B_010.vi" Type="VI" URL="/&lt;instcachedir&gt;/0/NIMS_NodeEndStatement_Output_53EC0D466D134D7ABD903AC30B43404B.lvgen/NIMS_NodeEndStatement_Output_53EC0D466D134D7ABD903AC30B43404B_010.vi"/>
 			<Item Name="Play sound right wrong.vi" Type="VI" URL="../Source/Play sound right wrong.vi"/>
 			<Item Name="Play sound start trial.vi" Type="VI" URL="../Source/Play sound start trial.vi"/>
 			<Item Name="port init.vi" Type="VI" URL="../Drivers and libraries/SMC100 drivers/SMC100_Communication.llb/port init.vi"/>
@@ -359,6 +390,7 @@
 			<Item Name="StateMachineStates 1.ctl" Type="VI" URL="../Source/StateMachineStates 1.ctl"/>
 			<Item Name="tell controller status.vi" Type="VI" URL="../Drivers and libraries/SMC100 drivers/SMC100.llb/tell controller status.vi"/>
 			<Item Name="tell current position.vi" Type="VI" URL="../Drivers and libraries/SMC100 drivers/SMC100.llb/tell current position.vi"/>
+			<Item Name="Untranslate Error.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath/Functions/Error Handling/Untranslate Error.vi"/>
 			<Item Name="Write Data.vi" Type="VI" URL="../Source/Write Data.vi"/>
 			<Item Name="Zaber A move 1 step.vi" Type="VI" URL="../Source/Zaber A move 1 step.vi"/>
 			<Item Name="Zaber A Series.lvlib" Type="Library" URL="../Drivers and libraries/Zaber A Series/Zaber A Series.lvlib"/>
